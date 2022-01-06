@@ -98,25 +98,4 @@ namespace fp.View {
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Never)]
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Design", "CA1033:InterfaceMethodsShouldBeCallableByChildTypes")]
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Maintainability", "CA1502:AvoidExcessiveComplexity")]
-        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1800:DoNotCastUnnecessarily")]
-        void System.Windows.Markup.IComponentConnector.Connect(int connectionId, object target) {
-            switch (connectionId)
-            {
-            case 1:
-            this.lblUsername = ((System.Windows.Controls.Label)(target));
-            return;
-            case 2:
-            this.lblJmlKamarKosong = ((System.Windows.Controls.Label)(target));
-            return;
-            case 3:
-            this.dgKodePenitipan = ((System.Windows.Controls.DataGrid)(target));
-            return;
-            case 4:
-            this.dgHistoriKunjungan = ((System.Windows.Controls.DataGrid)(target));
-            return;
-            }
-            this._contentLoaded = true;
-        }
-    }
-}
-
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttrib
