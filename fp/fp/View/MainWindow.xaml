@@ -1,0 +1,59 @@
+﻿<Window x:Class="fp.View.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:fp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" WindowState="Maximized">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="90"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid Background="#FFD09A">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="5"/>
+                <RowDefinition Height="65"/>
+                <RowDefinition Height="65"/>
+                <RowDefinition Height="65"/>
+                <RowDefinition Height="65"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="65"/>
+                <RowDefinition Height="5"/>
+            </Grid.RowDefinitions>
+
+            <DockPanel Grid.Row="1" x:Name="menuHome"
+                       Style="{DynamicResource MenuDockPanel}">
+                <Image Width="50" Height="50" 
+                       Source="/icon/home.png" MouseDown="Image_MouseDown"/>
+            </DockPanel>
+            <DockPanel Grid.Row="2" x:Name="menuPenitipan" 
+                       Style="{DynamicResource MenuDockPanel}">
+                <Image x:Name="menuPenitipan1" Width="50" Height="50" 
+                       Source="/icon/penitipan.png" MouseDown="menuPenitipan1_MouseDown"/>
+            </DockPanel>
+            <DockPanel Grid.Row="3" x:Name="menuProfile"
+                       Style="{DynamicResource MenuDockPanel}">
+                <Image x:Name="MenuProfil" Width="50" Height="50" 
+                       Source="/icon/profile.png" MouseDown="MenuProfil_MouseDown"/>
+            </DockPanel>
+            <DockPanel Grid.Row="4" x:Name="menuHistory"
+                       Style="{DynamicResource MenuDockPanel}">
+                <Image x:Name="MenuHistory" Width="50" Height="50" 
+                       Source="/icon/history.png" MouseDown="MenuHistory_MouseDown"/>
+            </DockPanel>
+            <DockPanel Grid.Row="6" x:Name="logout"
+                       Style="{DynamicResource MenuDockPanel}">
+                <Image x:Name="MenuExit" Width="50" Height="50" 
+                       Source="/icon/logout.png" MouseDown="MenuExit_MouseDown"/>
+            </DockPanel>
+        </Grid>
+
+        <Frame x:Name="FrmMain"
+               Grid.Column="1" Margin="10,10,10,10"
+               NavigationUIVisibility="Hidden"
+               Source="MainPage.xaml"/>
+
+    </Grid>
+</Window>

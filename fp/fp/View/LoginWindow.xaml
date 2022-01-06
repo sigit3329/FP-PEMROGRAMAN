@@ -1,0 +1,48 @@
+﻿<Window x:Class="fp.View.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:fp.View"
+        mc:Ignorable="d"
+        Title="LoginWindow" Height="720" Width="1280"
+        Background="#E5E5E5">
+    <StackPanel Height="350" Width="600"
+                Background="#FCF6EE">
+        <Grid Height="350">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="180"/>
+                <ColumnDefinition Width="420"/>
+            </Grid.ColumnDefinitions>
+
+            <StackPanel Background="#F1A852">
+                    <Image Width="70" Height="70" Margin="55,140,55,0"/>
+                
+            </StackPanel>
+            <StackPanel Grid.Column="1">
+                <Grid Margin="50" Height="250"
+                      Background="White">
+                    <StackPanel>
+                        <Label Content="Login to your account" Margin="10,20,30,0"
+                               FontSize="20" Padding="0" FontFamily="Montserrat"/>
+                        <Label Content="Username" Margin="10,25,30,0"
+                               FontSize="12" Padding="0" FontFamily="Montserrat"/>
+                        <TextBox x:Name="txtUsername" Margin="10,3,30,0"/>
+                        <Label Content="Password" Margin="10,10,30,0"
+                               FontSize="12" Padding="0" FontFamily="Montserrat"/>
+                        <PasswordBox x:Name="txtPassword" Margin="10,3,30,0"/>
+                        <Button x:Name="btnLogin" Width="50" Height="25"
+                                Margin="0,20,250,0" Background="#FCA743"
+                                Content="Login" Foreground="White" FontFamily="Montserrat" Click="btnLogin_Click"/>
+                        <Label x:Name="lblRegister" 
+                               Content="Don't have an account? Register" Margin="10,2,30,0"
+                               FontSize="7" Padding="0" FontFamily="Montserrat" MouseDown="lblRegister_MouseDown"/>
+                    </StackPanel>
+                    
+                </Grid>
+
+                
+            </StackPanel>
+        </Grid>
+    </StackPanel>
+</Window>

@@ -1,0 +1,82 @@
+D:\KULIAH\semester 3\PEMROGRAMAN\PRAKTIKUM\fp\fp\bin\Debug\fp.exe.config
+D:\KULIAH\semester 3\PEMROGRAMAN\PRAKTIKUM\fp\fp\bin\Debug\fp.exe
+D:\KULIAH\semester 3\PEMROGRAMAN\PRAKTIKUM\fp\fp\bin\Debug\fp.pdb
+D:\KULIAH\semester 3\PEMROGRAMAN\PRAKTIKUM\fp\fp\obj\Debug\fp.csprojAssemblyReference.cache
+D:\KULIAH\semester 3\PEMROGRAMAN\PRAKTIKUM\fp\fp\obj\Debug\View\LoginWindow.g.cs
+D:\KULIAH\semester 3\PEMROGRAMAN\PRAKTIKUM\fp\fp\obj\Debug\View\MainWindow.g.cs
+D:\KULIAH\semester 3\PEMROGRAMAN\PRAKTIKUM\fp\fp\obj\Debug\App.g.cs
+D:\KULIAH\semester 3\PEMROGRAMAN\PRAKTIKUM\fp\fp\obj\Debug\fp_MarkupCompile.cache
+D:\KULIAH\semester 3\PEMROGRAMAN\PRAKTIKUM\fp\fp\obj\Debug\fp_MarkupCompile.lref
+D:\KULIAH\semester 3\PEMROGRAMAN\PRAKTIKUM\fp\fp\obj\Debug\View\LoginWindow.baml
+D:\KULIAH\semester 3\PEMROGRAMAN\PRAKTIKUM\fp\fp\obj\Debug\View\MainWindow.baml
+D:\KULIAH\semester 3\PEMROGRAMAN\PRAKTIKUM\fp\fp\obj\Debug\fp.g.resources
+D:\KULIAH\semester 3\PEMROGRAMAN\PRAKTIKUM\fp\fp\obj\Debug\fp.Properties.Resources.resources
+D:\KULIAH\semester 3\PEMROGRAMAN\PRAKTIKUM\fp\fp\obj\Debug\fp.csproj.GenerateResource.cache
+D:\KULIAH\semester 3\PEMROGRAMAN\PRAKTIKUM\fp\fp\obj\Debug\fp.csproj.CoreCompileInputs.cache
+D:\KULIAH\semester 3\PEMROGRAMAN\PRAKTIKUM\fp\fp\obj\Debug\fp.exe
+D:\KULIAH\semester 3\PEMROGRAMAN\PRAKTIKUM\fp\fp\obj\Debug\fp.pdb
+D:\KULIAH\semester 3\PEMROGRAMAN\PRAKTIKUM\fp\fp\obj\Debug\View\MainPage.g.cs
+D:\KULIAH\semester 3\PEMROGRAMAN\PRAKTIKUM\fp\fp\obj\Debug\View\PenitipanPage.g.cs
+D:\KULIAH\semester 3\PEMROGRAMAN\PRAKTIKUM\fp\fp\obj\Debug\View\MainPage.baml
+D:\KULIAH\semester 3\PEMROGRAMAN\PRAKTIKUM\fp\fp\obj\Debug\View\PenitipanPage.baml
+D:\KULIAH\semester 3\PEMROGRAMAN\PRAKTIKUM\fp\fp\obj\Debug\App.baml
+D:\KULIAH\semester 3\PEMROGRAMAN\PRAKTIKUM\fp\fp\obj\Debug\View\HistoryPage.g.cs
+D:\KULIAH\semester 3\PEMROGRAMAN\PRAKTIKUM\fp\fp\obj\Debug\View\ProfilePage.g.cs
+D:\KULIAH\semester 3\PEMROGRAMAN\PRAKTIKUM\fp\fp\obj\Debug\View\HistoryPage.baml
+D:\KULIAH\semester 3\PEMROGRAMAN\PRAKTIKUM\fp\fp\obj\Debug\View\ProfilePage.baml
+F:\Fajar\Kuliah\Semester 3\Final Project\fp\fp\obj\Debug\fp.csproj.AssemblyReference.cache
+F:\Fajar\Kuliah\Semester 3\Final Project\fp\fp\obj\Debug\View\HistoryPage.g.cs
+F:\Fajar\Kuliah\Semester 3\Final Project\fp\fp\obj\Debug\View\LoginWindow.g.cs
+F:\Fajar\Kuliah\Semester 3\Final Project\fp\fp\obj\Debug\View\MainPage.g.cs
+F:\Fajar\Kuliah\Semester 3\Final Project\fp\fp\obj\Debug\View\MainWindow.g.cs
+F:\Fajar\Kuliah\Semester 3\Final Project\fp\fp\obj\Debug\View\PenitipanPage.g.cs
+F:\Fajar\Kuliah\Semester 3\Final Project\fp\fp\obj\Debug\View\ProfilePage.g.cs
+F:\Fajar\Kuliah\Semester 3\Final Project\fp\fp\obj\Debug\App.g.cs
+F:\Fajar\Kuliah\Semester 3\Final Project\fp\fp\obj\Debug\fp_MarkupCompile.cache
+F:\Fajar\Kuliah\Semester 3\Final Project\fp\fp\obj\Debug\fp_MarkupCompile.lref
+F:\Fajar\Kuliah\Semester 3\Final Project\fp\fp\obj\Debug\fp.exe
+F:\Fajar\Kuliah\Semester 3\Final Project\fp\fp\obj\Debug\fp.pdb
+F:\Fajar\Kuliah\Semester 3\Final Project\fp\fp\bin\Debug\fp.exe.config
+F:\Fajar\Kuliah\Semester 3\Final Project\fp\fp\bin\Debug\fp.exe
+F:\Fajar\Kuliah\Semester 3\Final Project\fp\fp\bin\Debug\fp.pdb
+F:\Fajar\Kuliah\Semester 3\Final Project\fp\fp\obj\Debug\App.baml
+F:\Fajar\Kuliah\Semester 3\Final Project\fp\fp\obj\Debug\View\HistoryPage.baml
+F:\Fajar\Kuliah\Semester 3\Final Project\fp\fp\obj\Debug\View\LoginWindow.baml
+F:\Fajar\Kuliah\Semester 3\Final Project\fp\fp\obj\Debug\View\MainPage.baml
+F:\Fajar\Kuliah\Semester 3\Final Project\fp\fp\obj\Debug\View\MainWindow.baml
+F:\Fajar\Kuliah\Semester 3\Final Project\fp\fp\obj\Debug\View\PenitipanPage.baml
+F:\Fajar\Kuliah\Semester 3\Final Project\fp\fp\obj\Debug\View\ProfilePage.baml
+F:\Fajar\Kuliah\Semester 3\Final Project\fp\fp\obj\Debug\fp.g.resources
+F:\Fajar\Kuliah\Semester 3\Final Project\fp\fp\obj\Debug\fp.Properties.Resources.resources
+F:\Fajar\Kuliah\Semester 3\Final Project\fp\fp\obj\Debug\fp.csproj.GenerateResource.cache
+F:\Fajar\Kuliah\Semester 3\Final Project\fp\fp\obj\Debug\fp.csproj.CoreCompileInputs.cache
+F:\Fajar\Kuliah\Semester 3\Final Project\fp\fp\obj\Debug\View\RegisterWindow.g.cs
+F:\Fajar\Kuliah\Semester 3\Final Project\fp\fp\obj\Debug\View\RegisterWindow.baml
+D:\1.DOKUMEN\3,KULIAH SMT 3\PEMROGRAMAN LANJUT\fp\fp\fp\bin\Debug\fp.exe.config
+D:\1.DOKUMEN\3,KULIAH SMT 3\PEMROGRAMAN LANJUT\fp\fp\fp\bin\Debug\fp.exe
+D:\1.DOKUMEN\3,KULIAH SMT 3\PEMROGRAMAN LANJUT\fp\fp\fp\bin\Debug\fp.pdb
+D:\1.DOKUMEN\3,KULIAH SMT 3\PEMROGRAMAN LANJUT\fp\fp\fp\obj\Debug\fp.csproj.AssemblyReference.cache
+D:\1.DOKUMEN\3,KULIAH SMT 3\PEMROGRAMAN LANJUT\fp\fp\fp\obj\Debug\View\HistoryPage.g.cs
+D:\1.DOKUMEN\3,KULIAH SMT 3\PEMROGRAMAN LANJUT\fp\fp\fp\obj\Debug\View\LoginWindow.g.cs
+D:\1.DOKUMEN\3,KULIAH SMT 3\PEMROGRAMAN LANJUT\fp\fp\fp\obj\Debug\View\MainPage.g.cs
+D:\1.DOKUMEN\3,KULIAH SMT 3\PEMROGRAMAN LANJUT\fp\fp\fp\obj\Debug\View\MainWindow.g.cs
+D:\1.DOKUMEN\3,KULIAH SMT 3\PEMROGRAMAN LANJUT\fp\fp\fp\obj\Debug\View\PenitipanPage.g.cs
+D:\1.DOKUMEN\3,KULIAH SMT 3\PEMROGRAMAN LANJUT\fp\fp\fp\obj\Debug\View\ProfilePage.g.cs
+D:\1.DOKUMEN\3,KULIAH SMT 3\PEMROGRAMAN LANJUT\fp\fp\fp\obj\Debug\View\RegisterWindow.g.cs
+D:\1.DOKUMEN\3,KULIAH SMT 3\PEMROGRAMAN LANJUT\fp\fp\fp\obj\Debug\App.g.cs
+D:\1.DOKUMEN\3,KULIAH SMT 3\PEMROGRAMAN LANJUT\fp\fp\fp\obj\Debug\fp_MarkupCompile.cache
+D:\1.DOKUMEN\3,KULIAH SMT 3\PEMROGRAMAN LANJUT\fp\fp\fp\obj\Debug\fp_MarkupCompile.lref
+D:\1.DOKUMEN\3,KULIAH SMT 3\PEMROGRAMAN LANJUT\fp\fp\fp\obj\Debug\App.baml
+D:\1.DOKUMEN\3,KULIAH SMT 3\PEMROGRAMAN LANJUT\fp\fp\fp\obj\Debug\View\HistoryPage.baml
+D:\1.DOKUMEN\3,KULIAH SMT 3\PEMROGRAMAN LANJUT\fp\fp\fp\obj\Debug\View\LoginWindow.baml
+D:\1.DOKUMEN\3,KULIAH SMT 3\PEMROGRAMAN LANJUT\fp\fp\fp\obj\Debug\View\MainPage.baml
+D:\1.DOKUMEN\3,KULIAH SMT 3\PEMROGRAMAN LANJUT\fp\fp\fp\obj\Debug\View\MainWindow.baml
+D:\1.DOKUMEN\3,KULIAH SMT 3\PEMROGRAMAN LANJUT\fp\fp\fp\obj\Debug\View\PenitipanPage.baml
+D:\1.DOKUMEN\3,KULIAH SMT 3\PEMROGRAMAN LANJUT\fp\fp\fp\obj\Debug\View\ProfilePage.baml
+D:\1.DOKUMEN\3,KULIAH SMT 3\PEMROGRAMAN LANJUT\fp\fp\fp\obj\Debug\View\RegisterWindow.baml
+D:\1.DOKUMEN\3,KULIAH SMT 3\PEMROGRAMAN LANJUT\fp\fp\fp\obj\Debug\fp.g.resources
+D:\1.DOKUMEN\3,KULIAH SMT 3\PEMROGRAMAN LANJUT\fp\fp\fp\obj\Debug\fp.Properties.Resources.resources
+D:\1.DOKUMEN\3,KULIAH SMT 3\PEMROGRAMAN LANJUT\fp\fp\fp\obj\Debug\fp.csproj.GenerateResource.cache
+D:\1.DOKUMEN\3,KULIAH SMT 3\PEMROGRAMAN LANJUT\fp\fp\fp\obj\Debug\fp.csproj.CoreCompileInputs.cache
+D:\1.DOKUMEN\3,KULIAH SMT 3\PEMROGRAMAN LANJUT\fp\fp\fp\obj\Debug\fp.exe
+D:\1.DOKUMEN\3,KULIAH SMT 3\PEMROGRAMAN LANJUT\fp\fp\fp\obj\Debug\fp.pdb

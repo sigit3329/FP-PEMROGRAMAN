@@ -1,0 +1,38 @@
+﻿<Window x:Class="Penitipan_Hewan.View.Register"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Penitipan_Hewan.View"
+        mc:Ignorable="d"
+        Title="Register" Height="720" Width="1280" Background="#FFD09A">
+    <StackPanel Height="689" Width="520" Background="#F2AE5F">
+
+        <Grid Margin="0,15,0,0" Height="674"
+              Background="White">
+
+            <Label Content="PENDAFTARAN" FontSize="40px"
+                   FontFamily="Montserrat" FontWeight="Bold" Margin="94,42,90,576" />
+            <TextBox HorizontalAlignment="Left" Height="47" Margin="80,130,0,0" TextWrapping="Wrap" Text="Email" VerticalAlignment="Top" Width="410" FontFamily="Montserrat" FontSize="18" FontWeight="Light" VerticalContentAlignment="Center" Foreground="#582D2D" FontStyle="Normal" />
+            <TextBox HorizontalAlignment="Left" Height="48" Margin="80,200,0,0" TextWrapping="Wrap" Text="Username" VerticalAlignment="Top" Width="410" FontFamily="Montserrat" FontSize="18" FontWeight="Light" VerticalContentAlignment="Center"  />
+            <TextBox HorizontalAlignment="Left" Height="44" Margin="80,270,0,0" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top" Width="410"  FontFamily="Montserrat" FontSize="18" FontWeight="Light" VerticalContentAlignment="Center"  />
+            <TextBox HorizontalAlignment="Left" Height="43" Margin="80,340,0,0" TextWrapping="Wrap" Text="No.HP" VerticalAlignment="Top" Width="410" FontFamily="Montserrat" FontSize="18" FontWeight="Light" VerticalContentAlignment="Center"  />
+            <TextBox HorizontalAlignment="Left" Height="44" Margin="80,410,0,0" TextWrapping="Wrap" Text="Alamat" VerticalAlignment="Top" Width="410" FontFamily="Montserrat" FontSize="18" FontWeight="Light" VerticalContentAlignment="Center"  />
+
+            <Image HorizontalAlignment="Left" Height="45" Margin="40,130,0,0" VerticalAlignment="Top" Width="46" Source="/Resources/email.png" />
+            <Image HorizontalAlignment="Left" Height="45" Margin="40,200,0,0" VerticalAlignment="Top" Width="46" Source="/Resources/user.png" />
+            <Image HorizontalAlignment="Left" Height="45" Margin="40,410,0,0" VerticalAlignment="Top" Width="46" Source="/Resources/address.png" />
+            <Image HorizontalAlignment="Left" Height="41" Margin="40,270,0,0" VerticalAlignment="Top" Width="42" Source="/Resources/password.png" />
+            <Image HorizontalAlignment="Left" Height="41" Margin="40,340,0,0" VerticalAlignment="Top" Width="42" Source="/Resources/phone.png" />
+
+            <RadioButton Content="Laki-Laki" Height="25" Width="110"  HorizontalAlignment="Left" Margin="82,515,0,0" VerticalAlignment="Top" FontFamily="Montserrat" FontSize="18" FontWeight="Light" VerticalContentAlignment="Center" />
+            <RadioButton Content="Perempuan" Height="25" Width="130"  HorizontalAlignment="Left" Margin="222,515,0,0" VerticalAlignment="Top" FontFamily="Montserrat" FontSize="18" FontWeight="Light" VerticalContentAlignment="Center" />
+
+            <Button Content="Register" HorizontalAlignment="Left" Margin="46,593,0,0" VerticalAlignment="Top" Width="444" Height="47" FontFamily="Montserrat" FontSize="24" FontWeight="Light" VerticalContentAlignment="Center"
+                    Foreground="white" Background="#F2AE5F" />
+
+        </Grid>
+
+
+    </StackPanel>
+</Window>

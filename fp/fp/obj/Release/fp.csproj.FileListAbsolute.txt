@@ -1,0 +1,16 @@
+D:\KULIAH\semester 3\PEMROGRAMAN\PRAKTIKUM\fp\fp\bin\Release\fp.exe.config
+D:\KULIAH\semester 3\PEMROGRAMAN\PRAKTIKUM\fp\fp\bin\Release\fp.exe
+D:\KULIAH\semester 3\PEMROGRAMAN\PRAKTIKUM\fp\fp\bin\Release\fp.pdb
+D:\KULIAH\semester 3\PEMROGRAMAN\PRAKTIKUM\fp\fp\obj\Release\View\LoginWindow.g.cs
+D:\KULIAH\semester 3\PEMROGRAMAN\PRAKTIKUM\fp\fp\obj\Release\View\MainWindow.g.cs
+D:\KULIAH\semester 3\PEMROGRAMAN\PRAKTIKUM\fp\fp\obj\Release\App.g.cs
+D:\KULIAH\semester 3\PEMROGRAMAN\PRAKTIKUM\fp\fp\obj\Release\fp_MarkupCompile.cache
+D:\KULIAH\semester 3\PEMROGRAMAN\PRAKTIKUM\fp\fp\obj\Release\fp_MarkupCompile.lref
+D:\KULIAH\semester 3\PEMROGRAMAN\PRAKTIKUM\fp\fp\obj\Release\View\LoginWindow.baml
+D:\KULIAH\semester 3\PEMROGRAMAN\PRAKTIKUM\fp\fp\obj\Release\View\MainWindow.baml
+D:\KULIAH\semester 3\PEMROGRAMAN\PRAKTIKUM\fp\fp\obj\Release\fp.g.resources
+D:\KULIAH\semester 3\PEMROGRAMAN\PRAKTIKUM\fp\fp\obj\Release\fp.Properties.Resources.resources
+D:\KULIAH\semester 3\PEMROGRAMAN\PRAKTIKUM\fp\fp\obj\Release\fp.csproj.GenerateResource.cache
+D:\KULIAH\semester 3\PEMROGRAMAN\PRAKTIKUM\fp\fp\obj\Release\fp.csproj.CoreCompileInputs.cache
+D:\KULIAH\semester 3\PEMROGRAMAN\PRAKTIKUM\fp\fp\obj\Release\fp.exe
+D:\KULIAH\semester 3\PEMROGRAMAN\PRAKTIKUM\fp\fp\obj\Release\fp.pdb
