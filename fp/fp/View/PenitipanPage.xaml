@@ -16,82 +16,22 @@
         <StackPanel Margin="10">
             <Label Content="Silahkan isi form penitipan"
                    FontSize="20" FontWeight="Bold" FontFamily="Montserrat"/>
-            <Label Content="Profile" FontSize="14" FontWeight="Medium" FontFamily="Montserrat"/>
+
+            <Label Margin="0,50,0,0" Content="Profile Hewan" FontSize="14" FontWeight="Medium" FontFamily="Montserrat"/>
             <Grid>
-                <TextBox x:Name="txtUsername" Height="35" Text=" Username" Margin="34,0,0,0" 
-                     VerticalAlignment="Top"
-                     FontFamily="Montserrat" FontSize="14" FontWeight="Light" 
-                     VerticalContentAlignment="Center" FontStyle="Normal">
-                </TextBox>
-                <TextBox Height="35" Width="35"
-                         HorizontalAlignment="Left">
-                </TextBox>
-                <Image Height="35" Width="35" HorizontalAlignment="Left"
-                   Source="/icon/username.png"/>
+                <ComboBox Name="cmbProfileHewan" Height="30" Width="250" HorizontalAlignment="Left">
+                    <ComboBoxItem Content="Anjing" FontFamily="Montserrat" FontSize="14" FontWeight="Light" 
+                     VerticalContentAlignment="Center" FontStyle="Normal"/>
+                    <ComboBoxItem Content="Kucing" FontFamily="Montserrat" FontSize="14" FontWeight="Light" 
+                     VerticalContentAlignment="Center" FontStyle="Normal"/>
+                    <ComboBoxItem Content="Kura-kura" FontFamily="Montserrat" FontSize="14" FontWeight="Light" 
+                     VerticalContentAlignment="Center" FontStyle="Normal"/>
+                </ComboBox>
             </Grid>
 
-            <Grid Margin="0,10">
-                <TextBox x:Name="txtNoHp" Height="35" Text=" No. Hp" Margin="34,0,0,0" 
-                     VerticalAlignment="Top"
-                     FontFamily="Montserrat" FontSize="14" FontWeight="Light" 
-                     VerticalContentAlignment="Center" FontStyle="Normal">
-                </TextBox>
-                <TextBox Height="35" Width="35"
-                         HorizontalAlignment="Left">
-                </TextBox>
-                <Image Height="35" Width="35" HorizontalAlignment="Left"
-                   Source="/icon/noHp.png"/>
-            </Grid>
-
-            <Grid Margin="0,0">
-                <TextBox x:Name="txtAlamat" Height="35" Text=" Alamat" Margin="34,0,0,0" 
-                     VerticalAlignment="Top"
-                     FontFamily="Montserrat" FontSize="14" FontWeight="Light" 
-                     VerticalContentAlignment="Center" FontStyle="Normal">
-                </TextBox>
-                <TextBox Height="35" Width="35"
-                         HorizontalAlignment="Left">
-                </TextBox>
-                <Image Height="35" Width="35" HorizontalAlignment="Left"
-                   Source="/icon/alamat.png"/>
-            </Grid>
-            
-            <Label Content="Profile Hewan" Margin="0,20,0,5"
-                   FontSize="14" FontWeight="Medium" FontFamily="Montserrat" />
+            <Label Margin="0,60,0,0" Content="Jenis kamar" FontSize="14" FontWeight="Medium" FontFamily="Montserrat"/>
             <Grid>
-                <TextBox x:Name="txtNamaHewan" Height="35" Text=" Nama hewan" Margin="34,0,-0.667,-0.333" 
-                     VerticalAlignment="Top"
-                     FontFamily="Montserrat" FontSize="14" FontWeight="Light" 
-                     VerticalContentAlignment="Center" FontStyle="Normal" Grid.ColumnSpan="2">
-                </TextBox>
-                <TextBox Height="35" Width="35"
-                         HorizontalAlignment="Left" Margin="0,0,0,-0.333">
-                </TextBox>
-                <Image Height="35" Width="35" HorizontalAlignment="Left"
-                   Source="/icon/username.png" Margin="0,0,0,-0.333"/>
-            </Grid>
-            <Grid Margin="0,10">
-                <TextBox x:Name="txtJenisHewan" Height="35" Text=" Jenis hewan" Margin="34,0,0,0" 
-                     VerticalAlignment="Top"
-                     FontFamily="Montserrat" FontSize="14" FontWeight="Light" 
-                     VerticalContentAlignment="Center" FontStyle="Normal">
-                </TextBox>
-                <TextBox Height="35" Width="35"
-                         HorizontalAlignment="Left">
-                </TextBox>
-                <Image Height="35" Width="35" HorizontalAlignment="Left"
-                   Source="/icon/jenisHewan.png"/>
-            </Grid>
-            <TextBox Height="100" Text="Deskripsi hewan..." FontFamily="Montserrat"/>
-            
-        </StackPanel>
-
-        <StackPanel Grid.Column="1" Margin="10">
-            <Label Content=""
-                   FontSize="20" FontWeight="Bold"/>
-            <Label Content="Jenis kamar" FontSize="14" FontWeight="Medium" FontFamily="Montserrat"/>
-            <Grid>
-                <ComboBox Name="cmbJenisKamar">
+                <ComboBox Name="cmbJenisKamar" Height="30" Width="250" HorizontalAlignment="Left">
                     <ComboBoxItem Content="Regular" FontFamily="Montserrat" FontSize="14" FontWeight="Light" 
                      VerticalContentAlignment="Center" FontStyle="Normal"/>
                     <ComboBoxItem Content="Small" FontFamily="Montserrat" FontSize="14" FontWeight="Light" 
@@ -100,8 +40,10 @@
                      VerticalContentAlignment="Center" FontStyle="Normal"/>
                 </ComboBox>
             </Grid>
-            
-            <Label Content="Layanan" Margin="0,40,0,5"
+        </StackPanel>
+
+        <StackPanel Grid.Column="1" Margin="10">
+            <Label Content="Layanan" Margin="0,80,0,5"
                    FontSize="14" FontWeight="Medium" FontFamily="Montserrat"/>
 
             <RadioButton Content="Grooming" FontFamily="Montserrat" 
@@ -125,7 +67,7 @@
             <Label Margin="0,10" x:Name="lblTglMasuk" Content="Tanggal masuk" FontFamily="Montserrat"/>
             <Label Margin="0,-10" x:Name="lblTglKeluar" Content="Tanggal keluar" FontFamily="Montserrat"/>
 
-            <Button x:Name="btnPesan" Margin="0,20"
+            <Button x:Name="btnPesan" Margin="0,25"
                     Background="#FFD09A" FontSize="24"
                     Content="PESAN" Foreground="White" FontFamily="Montserrat"/>
         </StackPanel>

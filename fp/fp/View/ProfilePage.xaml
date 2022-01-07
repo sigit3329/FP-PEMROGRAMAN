@@ -12,6 +12,7 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="170"/>
             <RowDefinition/>
+            <RowDefinition/>
         </Grid.RowDefinitions>
         <Grid Margin="10">
             <Image Margin="0,10,0,30" Height="80" Width="80" 
@@ -48,10 +49,15 @@
                     <TextBox x:Name="txtEmail" Height="35" Width="600" Margin="0,5"
                              HorizontalAlignment="Left"/>
                 </StackPanel>
-                
+
             </Grid>
         </Grid>
-        
-        
+        <Grid Grid.Row="2">
+
+            <Button x:Name="btnEditProfil" Width="150" Height="50"
+                    Background="#FFFF" FontSize="24"
+                    Content="Edit Profil" Foreground="Black" FontFamily="Montserrat"/>
+        </Grid>
+
     </Grid>
 </Page>
