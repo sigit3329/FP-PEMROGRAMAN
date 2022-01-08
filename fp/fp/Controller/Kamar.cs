@@ -13,6 +13,7 @@ namespace fp.Controller
         Model.KamarModel kamar;
         View.MainPage main;
 
+        //instance
         public Kamar(View.MainPage main)
         {
             kamar = new Model.KamarModel();
