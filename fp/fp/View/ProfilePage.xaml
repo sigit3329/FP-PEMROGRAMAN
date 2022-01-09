@@ -41,13 +41,13 @@
             <Grid Grid.Column="1" Margin="20">
                 <StackPanel>
                     <TextBox x:Name="txtNama" Height="35" Width="600" Margin="0,10,0,5"
-                             HorizontalAlignment="Left"/>
+                             HorizontalAlignment="Left" FontSize="18"/>
                     <TextBox x:Name="txtNoHp" Height="35" Width="600" Margin="0,5"
-                             HorizontalAlignment="Left"/>
+                             HorizontalAlignment="Left"  FontSize="18"/>
                     <TextBox x:Name="txtAlamat" Height="35" Width="600" Margin="0,5"
-                             HorizontalAlignment="Left"/>
+                             HorizontalAlignment="Left"  FontSize="18"/>
                     <TextBox x:Name="txtEmail" Height="35" Width="600" Margin="0,5"
-                             HorizontalAlignment="Left"/>
+                             HorizontalAlignment="Left"  FontSize="18"/>
                 </StackPanel>
 
             </Grid>

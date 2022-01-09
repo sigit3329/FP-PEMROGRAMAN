@@ -3,9 +3,8 @@
     "",
     "\\fp",
     "\\fp\\fp",
-    "\\fp\\fp\\Model",
     "\\fp\\fp\\View"
   ],
-  "SelectedNode": "\\fp\\fp\\Model\\KamarModel.cs",
+  "SelectedNode": "\\fp\\fp\\View\\PenitipanPage.xaml",
   "PreviewInSolutionExplorer": false
 }
