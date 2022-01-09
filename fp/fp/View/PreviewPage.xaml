@@ -1,0 +1,81 @@
+﻿<Window x:Class="fp.View.PreviewPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:fp.View"
+        mc:Ignorable="d"
+        Title="PreviewPage" Height="450" Width="800">
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="35"/>
+            <RowDefinition/>
+            <RowDefinition Height="30"/>
+        </Grid.RowDefinitions>
+        <Label Content="Detail Penitipan" FontSize="16" FontWeight="DemiBold" Grid.Row="0"/>
+        <Grid Grid.Row="1" Margin="0,10,0,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="120"/>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="120"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="35"/>
+                <RowDefinition Height="35"/>
+                <RowDefinition Height="35"/>
+                <RowDefinition Height="35"/>
+                <RowDefinition Height="35"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <Label Content="Kode Penitipan" FontSize="14" FontFamily="Montserrat"
+                   VerticalContentAlignment="Center"/>
+            <Label Content="Nomor Kamar" FontSize="14" FontFamily="Montserrat"
+                   Grid.Row="1" VerticalContentAlignment="Center"/>
+            <Label Content="Nama Binatang" FontSize="14" FontFamily="Montserrat"
+                   Grid.Row="2" VerticalContentAlignment="Center"/>
+            <Label Content="Tipe Kamar" FontSize="14" FontFamily="Montserrat"
+                   Grid.Row="3" VerticalContentAlignment="Center"/>
+            <Label Content="Layanan" FontSize="14" FontFamily="Montserrat"
+                   Grid.Row="4" VerticalContentAlignment="Center"/>
+
+            <TextBox x:Name="txtKodePenitipan" Grid.Column="1" Grid.Row="0"
+                     Margin="10,5" Width="100" HorizontalAlignment="Left"/>
+            <TextBox x:Name="txtNomorKamar" Grid.Column="1" Grid.Row="1"
+                     Margin="10,5" Width="50" HorizontalAlignment="Left"/>
+            <TextBox x:Name="txtNamaBinatang" Grid.Column="1" Grid.Row="2"
+                     Margin="10,5,30,5"/>
+            <TextBox x:Name="txtTipeKamar" Grid.Column="1" Grid.Row="3"
+                     Margin="10,5" Width="100" HorizontalAlignment="Left"/>
+            <TextBox x:Name="txtLayanan" Grid.Column="1" Grid.Row="4"
+                     Margin="10,5,30,5"/>
+
+            <Label Content="Tanggal Masuk" FontSize="14" FontFamily="Montserrat"
+                   Grid.Column="2" VerticalContentAlignment="Center"/>
+            <Label Content="Tanggal Keluar" FontSize="14" FontFamily="Montserrat"
+                   Grid.Column="2" Grid.Row="1" VerticalContentAlignment="Center"/>
+            <Label Content="Total Harga" FontSize="14" FontFamily="Montserrat"
+                   Grid.Column="2" Grid.Row="2" VerticalContentAlignment="Center"/>
+
+            <TextBox x:Name="txtTanggalMasuk" Grid.Column="3" Grid.Row="0"
+                     Margin="10,5,30,5"/>
+            <TextBox x:Name="txtTanggalKeluar" Grid.Column="3" Grid.Row="1"
+                     Margin="10,5,30,5"/>
+            <TextBox x:Name="txtTotalHarga" Grid.Column="3" Grid.Row="2"
+                     Margin="10,5,30,5"/>
+
+
+        </Grid>
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="80"/>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="btnClose" Content="Tutup" 
+                    Background="#FFD09A" Foreground="Black"
+                    Height="27" Width="80" HorizontalAlignment="Left"
+                    Grid.Column="1"/>
+        </Grid>
+    </Grid>
+</Window>
