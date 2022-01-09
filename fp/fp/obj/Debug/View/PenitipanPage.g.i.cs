@@ -41,7 +41,7 @@ namespace fp.View {
     public partial class PenitipanPage : System.Windows.Controls.Page, System.Windows.Markup.IComponentConnector {
         
         
-        #line 22 "..\..\..\View\PenitipanPage.xaml"
+        #line 26 "..\..\..\View\PenitipanPage.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.ComboBox cmbProfileHewan;
         
@@ -49,7 +49,7 @@ namespace fp.View {
         #line hidden
         
         
-        #line 34 "..\..\..\View\PenitipanPage.xaml"
+        #line 35 "..\..\..\View\PenitipanPage.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.ComboBox cmbJenisKamar;
         
@@ -57,23 +57,71 @@ namespace fp.View {
         #line hidden
         
         
-        #line 67 "..\..\..\View\PenitipanPage.xaml"
+        #line 66 "..\..\..\View\PenitipanPage.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
-        internal System.Windows.Controls.Label lblTglMasuk;
+        internal System.Windows.Controls.RadioButton rdbGrooming;
         
         #line default
         #line hidden
         
         
-        #line 68 "..\..\..\View\PenitipanPage.xaml"
+        #line 69 "..\..\..\View\PenitipanPage.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
-        internal System.Windows.Controls.Label lblTglKeluar;
+        internal System.Windows.Controls.RadioButton rdbCheckUp;
         
         #line default
         #line hidden
         
         
-        #line 70 "..\..\..\View\PenitipanPage.xaml"
+        #line 72 "..\..\..\View\PenitipanPage.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.RadioButton rdbSterilisasi;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 75 "..\..\..\View\PenitipanPage.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.RadioButton rdbKawin;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 78 "..\..\..\View\PenitipanPage.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.RadioButton rdbVaksin;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 81 "..\..\..\View\PenitipanPage.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.RadioButton rdbCukur;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 98 "..\..\..\View\PenitipanPage.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.DatePicker dtpTanggalMasuk;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 99 "..\..\..\View\PenitipanPage.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.DatePicker dtpTanggalKeluar;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 103 "..\..\..\View\PenitipanPage.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button btnPesan;
         
@@ -117,12 +165,30 @@ namespace fp.View {
             this.cmbJenisKamar = ((System.Windows.Controls.ComboBox)(target));
             return;
             case 3:
-            this.lblTglMasuk = ((System.Windows.Controls.Label)(target));
+            this.rdbGrooming = ((System.Windows.Controls.RadioButton)(target));
             return;
             case 4:
-            this.lblTglKeluar = ((System.Windows.Controls.Label)(target));
+            this.rdbCheckUp = ((System.Windows.Controls.RadioButton)(target));
             return;
             case 5:
+            this.rdbSterilisasi = ((System.Windows.Controls.RadioButton)(target));
+            return;
+            case 6:
+            this.rdbKawin = ((System.Windows.Controls.RadioButton)(target));
+            return;
+            case 7:
+            this.rdbVaksin = ((System.Windows.Controls.RadioButton)(target));
+            return;
+            case 8:
+            this.rdbCukur = ((System.Windows.Controls.RadioButton)(target));
+            return;
+            case 9:
+            this.dtpTanggalMasuk = ((System.Windows.Controls.DatePicker)(target));
+            return;
+            case 10:
+            this.dtpTanggalKeluar = ((System.Windows.Controls.DatePicker)(target));
+            return;
+            case 11:
             this.btnPesan = ((System.Windows.Controls.Button)(target));
             return;
             }

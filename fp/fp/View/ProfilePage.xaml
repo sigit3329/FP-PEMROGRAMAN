@@ -5,59 +5,56 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:fp.View"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
+      d:DesignHeight="450" d:DesignWidth="1000"
       Title="ProfilePage" Background="White">
 
-    <Grid Margin="10">
+    <Grid Margin="20">
         <Grid.RowDefinitions>
             <RowDefinition Height="170"/>
-            <RowDefinition/>
+            <RowDefinition Height="160"/>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <Grid Margin="10">
-            <Image Margin="0,10,0,30" Height="80" Width="80" 
+        <Grid Margin="0,0,0,25">
+            <Image Margin="0,0,0,0" Height="80" Width="80" 
                Source="/icon/username.png"/>
             <Label x:Name="txtUsername" Content="Nama user"
                    FontSize="20" FontWeight="Regular" FontFamily="Robotto"
                    HorizontalAlignment="Center" Height="35" VerticalAlignment="Bottom"/>
         </Grid>
         <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+            </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="270"/>
-                <ColumnDefinition/>
+                <ColumnDefinition Width="300"/>
+                <ColumnDefinition Width="600"/>
             </Grid.ColumnDefinitions>
-            <Grid Margin="20">
-                <StackPanel>
-                    <Label Content="Nama" FontSize="20" HorizontalAlignment="Right"
-                           Margin="5"/>
-                    <Label Content="No Hp" FontSize="20" HorizontalAlignment="Right"
-                           Margin="5"/>
-                    <Label Content="Alamat" FontSize="20" HorizontalAlignment="Right"
-                           Margin="5"/>
-                    <Label Content="Email" FontSize="20" HorizontalAlignment="Right"
-                           Margin="5"/>
-                </StackPanel>
-            </Grid>
-            <Grid Grid.Column="1" Margin="20">
-                <StackPanel>
-                    <TextBox x:Name="txtNama" Height="35" Width="600" Margin="0,10,0,5"
-                             HorizontalAlignment="Left" FontSize="18"/>
-                    <TextBox x:Name="txtNoHp" Height="35" Width="600" Margin="0,5"
-                             HorizontalAlignment="Left"  FontSize="18"/>
-                    <TextBox x:Name="txtAlamat" Height="35" Width="600" Margin="0,5"
-                             HorizontalAlignment="Left"  FontSize="18"/>
-                    <TextBox x:Name="txtEmail" Height="35" Width="600" Margin="0,5"
-                             HorizontalAlignment="Left"  FontSize="18"/>
-                </StackPanel>
-
-            </Grid>
+            <Label Content="Nama" Grid.Row="0" Grid.Column="0" HorizontalAlignment="Left" 
+                   Margin="200,3,0,3" FontSize="20"/>
+            <Label Content="No HP" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Left"
+                   Margin="200,3,0,3" FontSize="20"/>
+            <Label Content="Alamat" Grid.Row="2" Grid.Column="0" HorizontalAlignment="Left"
+                   Margin="200,3,0,3" FontSize="20"/>
+            <Label Content="Email" Grid.Row="3" Grid.Column="0" HorizontalAlignment="Left"
+                   Margin="200,3,0,3" FontSize="20"/>
+            <TextBox x:Name="txtNama" Grid.Row="0" Grid.Column="1"
+                     Margin="10,5,30,5"/>
+            <TextBox x:Name="txtNoHp" Grid.Row="1" Grid.Column="1"
+                     Margin="10,5,30,5"/>
+            <TextBox x:Name="txtAlamat" Grid.Row="2" Grid.Column="1"
+                     Margin="10,5,30,5"/>
+            <TextBox x:Name="txtEmail" Grid.Row="3" Grid.Column="1"
+                     Margin="10,5,30,5"/>
         </Grid>
         <Grid Grid.Row="2">
-
-            <Button x:Name="btnEditProfil" Width="150" Height="50"
-                    Background="#FFFF" FontSize="24"
+            <Button x:Name="btnEditProfil" Width="130" Height="35" Margin="0,30,0,0"
+                    Background="#FFFF" FontSize="20" VerticalAlignment="Top"
                     Content="Edit Profil" Foreground="Black" FontFamily="Montserrat"/>
         </Grid>
+
 
     </Grid>
 </Page>

@@ -81,7 +81,7 @@ namespace fp.View {
         #line hidden
         
         
-        #line 57 "..\..\..\View\ProfilePage.xaml"
+        #line 53 "..\..\..\View\ProfilePage.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button btnEditProfil;
         
