@@ -27,7 +27,7 @@
                                FontSize="20" Padding="0" FontFamily="Montserrat"/>
                         <Label Content="Username" Margin="10,25,30,0"
                                FontSize="12" Padding="0" FontFamily="Montserrat"/>
-                        <TextBox x:Name="txtUsername" Margin="10,3,30,0"/>
+                        <TextBox x:Name="txtUsername" Margin="10,3,30,0" Text="kelompok6"/>
                         <Label Content="Password" Margin="10,10,30,0"
                                FontSize="12" Padding="0" FontFamily="Montserrat"/>
                         <PasswordBox x:Name="txtPassword" Margin="10,3,30,0"/>

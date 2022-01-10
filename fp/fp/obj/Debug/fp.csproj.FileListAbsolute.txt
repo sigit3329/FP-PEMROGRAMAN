@@ -136,3 +136,5 @@ C:\Users\Ananda\Source\Repos\FP-PEMROGRAMAN\fp\fp\obj\Debug\fp.csproj.GenerateRe
 C:\Users\Ananda\Source\Repos\FP-PEMROGRAMAN\fp\fp\obj\Debug\fp.csproj.CoreCompileInputs.cache
 C:\Users\Ananda\Source\Repos\FP-PEMROGRAMAN\fp\fp\obj\Debug\fp.exe
 C:\Users\Ananda\Source\Repos\FP-PEMROGRAMAN\fp\fp\obj\Debug\fp.pdb
+D:\1.DOKUMEN\3,KULIAH SMT 3\PEMROGRAMAN LANJUT\FP PEMROG GITHUB\fp\fp\obj\Debug\View\PreviewPage.g.cs
+D:\1.DOKUMEN\3,KULIAH SMT 3\PEMROGRAMAN LANJUT\FP PEMROG GITHUB\fp\fp\obj\Debug\View\PreviewPage.baml
