@@ -36,7 +36,8 @@ harga_kamar int not null
 
 alter table kamar add status_kamar char(20) check ( status_kamar IN ( 'Kosong', 'Terisi' ) )
 
-INSERT INTO kamar VALUES ('Regular', 10000 )
+INSERT INTO kamar VALUES ('Small', 5000,'kosong' )
+INSERT INTO kamar VALUES ('Eksklusif', 20000, 'kosong' )
 --CREATE TABEL LAYANAN
 CREATE TABLE layanan (
 No_layanan char(1) primary key not null,
@@ -86,3 +87,15 @@ drop table penitipan
 drop table pemesanan_layanan
 drop table pembayaran
 select * from penitipan
+select * from kamar
+select * from layanan
+select * from pemesanan_layanan
+select * from hewan_pelanggan
+
+INSERT INTO hewan_pelanggan VALUES ( 'AWKOAWO', 'Kelompok6', 'KURA-KURA','')
+
+DELETE FROM kamar WHERE No_kamar=5
+DELETE FROM kamar WHERE No_kamar=6
+
+--untuk reset int identity
+DBCC CHECKIDENT ('kamar', RESEED, 1)

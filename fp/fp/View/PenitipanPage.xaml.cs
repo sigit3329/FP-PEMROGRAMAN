@@ -20,9 +20,23 @@ namespace fp.View
     /// </summary>
     public partial class PenitipanPage : Page
     {
+        Controller.HewanPelanggan hewanPelanggan;
+        Controller.Penitipan penitipan;
         public PenitipanPage()
         {
             InitializeComponent();
+            hewanPelanggan = new Controller.HewanPelanggan(this);
+            penitipan = new Controller.Penitipan(this);
+        }
+
+        private void btnPesan_Click(object sender, RoutedEventArgs e)
+        {
+            hewanPelanggan.TambahHewan();
+            penitipan.TambahPenitipan();
+
+            PreviewPage detail = new PreviewPage();
+            detail.Show();
+
         }
     }
 }

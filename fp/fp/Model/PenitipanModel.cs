@@ -13,16 +13,12 @@ namespace fp.Model
         ModelTemplate template;
 
         //declare variabel sesuai dengan field di tabel
-        public string kode { get; set; }
+        public string kodePenitipan { get; set; }
         public string nama { get; set; }
-        public string alamat { get; set; }
-        public int noHp { get; set; }
         public string namaHewan { get; set; }
-        public string descHewan { get; set; }
-        public string jenisHewan { get; set; }
-        public string jenisLayanan { get; set; }
+        public int noKamar { get; set; }
         public string tanggalMasuk { get; set; }
-        public string tanggalKeluat { get; set; }
+        public string tanggalKeluar{ get; set; }
 
         //instance
         public PenitipanModel()
@@ -38,5 +34,10 @@ namespace fp.Model
             return dsPenitipan;
         }
         //insert data form penitipan
+        public bool InsertPenitipan()
+        {
+            string data = "'"+nama+ "', '" + namaHewan + "', " + noKamar + ", '" + tanggalMasuk + "', '" + tanggalKeluar + "'";
+            return template.Insert("penitipan", data);
+        }
     }
 }

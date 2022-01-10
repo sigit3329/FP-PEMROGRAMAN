@@ -19,9 +19,14 @@ namespace fp.View
     /// </summary>
     public partial class PreviewPage : Window
     {
+        //public static variabel
+        Controller.Penitipan penitipan;
         public PreviewPage()
         {
             InitializeComponent();
+            penitipan = new Controller.Penitipan(this);
+            
+            penitipan.ShowPenitipanForm();
         }
     }
 }

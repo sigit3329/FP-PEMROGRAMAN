@@ -22,7 +22,9 @@
                    FontSize="22" FontWeight="Bold" FontFamily="Montserrat"/>
             <Grid Grid.Row="1">
                 <StackPanel>
-                    <Label Margin="0,50,0,0" Content="Profile Hewan" FontSize="20" FontWeight="Medium" FontFamily="Montserrat"/>
+                    <Label Margin="0,50,0,0" Content="Nama Hewan" FontSize="20" FontWeight="Medium" FontFamily="Montserrat"/>
+                    <TextBox x:Name="txtNamaHewan" Height="24" Margin="0,0,150,0" FontSize="15"/>
+                    <Label Margin="0,15,0,0" Content="Profile Hewan" FontSize="20" FontWeight="Medium" FontFamily="Montserrat"/>
                     <ComboBox x:Name="cmbProfileHewan" Height="30" Width="250" HorizontalAlignment="Left" FontSize="17">
                         <ComboBoxItem Content="Anjing" FontFamily="Montserrat" FontSize="20" FontWeight="Light" 
                      VerticalContentAlignment="Center" FontStyle="Normal"/>
@@ -31,7 +33,7 @@
                         <ComboBoxItem Content="Kura-kura" FontFamily="Montserrat" FontSize="20" FontWeight="Light" 
                      VerticalContentAlignment="Center" FontStyle="Normal"/>
                     </ComboBox>
-                    <Label Margin="0,70,0,0" Content="Jenis kamar" FontSize="20" FontWeight="Medium" FontFamily="Montserrat"/>
+                    <Label Margin="0,15,0,0" Content="Jenis kamar" FontSize="20" FontWeight="Medium" FontFamily="Montserrat"/>
                     <ComboBox x:Name="cmbJenisKamar" Height="30" Width="250" HorizontalAlignment="Left" FontSize="17">
                         <ComboBoxItem Content="Regular" FontFamily="Montserrat" FontSize="20" FontWeight="Light" 
                      VerticalContentAlignment="Center" FontStyle="Normal"/>
@@ -61,7 +63,7 @@
                 </Grid.ColumnDefinitions>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="35"/>
-                    <RowDefinition Height="35"/>
+                    <RowDefinition Height="Auto"/>
                 </Grid.RowDefinitions>
                 <RadioButton x:Name="rdbGrooming" Content="Grooming" FontFamily="Montserrat" 
                          FontSize="20" FontWeight="Light"
@@ -92,17 +94,17 @@
                     <RowDefinition Height="40"/>
                     <RowDefinition Height="40"/>
                 </Grid.RowDefinitions>
-                <Label Content="Tanggal masuk" VerticalAlignment="Center" FontSize="20"/>
+                <Label Content="Tanggal masuk" VerticalAlignment="Center" FontSize="20" />
                 <Label Grid.Row="1" Content="Tanggal keluar" VerticalAlignment="Center" FontSize="20"/>
 
-                <DatePicker x:Name="dtpTanggalMasuk" Grid.Column="1" Margin="10,5" Width="150" HorizontalAlignment="Left"/>
+                <DatePicker x:Name="dtpTanggalMasuk" Grid.Column="1" Margin="10,5" Width="150" HorizontalAlignment="Left" DisplayDate="2022-01-10" />
                 <DatePicker x:Name="dtpTanggalKeluar" Grid.Row="1" Grid.Column="1" Margin="10,5" Width="150" HorizontalAlignment="Left"/>
             </Grid>
 
             <Grid Grid.Row="3">
                 <Button x:Name="btnPesan" HorizontalAlignment="Right" VerticalAlignment="Top"
-                    Background="#FFD09A" FontSize="20" Height="35" Width="90" Margin="0,20"
-                    Content="Pesan" Foreground="White" FontFamily="Montserrat"/>
+                    Background="#FFD09A" FontSize="20" Height="35" Width="90" Margin="0,20,26,20"
+                    Content="Pesan" Foreground="White" FontFamily="Montserrat" RenderTransformOrigin="0.504,0.5" Click="btnPesan_Click"/>
             </Grid>
 
         </Grid>
