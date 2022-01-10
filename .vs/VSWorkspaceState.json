@@ -3,8 +3,10 @@
     "",
     "\\fp",
     "\\fp\\fp",
+    "\\fp\\fp\\Controller",
+    "\\fp\\fp\\Model",
     "\\fp\\fp\\View"
   ],
-  "SelectedNode": "\\fp\\fp\\View\\PenitipanPage.xaml",
+  "SelectedNode": "\\fp\\fp\\Controller\\Pelanggan.cs",
   "PreviewInSolutionExplorer": false
 }

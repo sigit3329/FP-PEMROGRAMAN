@@ -95,7 +95,7 @@ namespace fp.Controller
             profile.txtEmail.Text = Model.PelangganModel.emailProfile;
         }
 
-        //ini komentar
+        //ini komentar ke 2
 
     }
 }
