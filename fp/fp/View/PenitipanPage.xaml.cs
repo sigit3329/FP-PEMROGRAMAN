@@ -34,8 +34,6 @@ namespace fp.View
             hewanPelanggan.TambahHewan();
             penitipan.TambahPenitipan();
 
-            PreviewPage detail = new PreviewPage();
-            detail.Show();
 
         }
     }

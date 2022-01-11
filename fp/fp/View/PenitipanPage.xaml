@@ -65,22 +65,22 @@
                     <RowDefinition Height="35"/>
                     <RowDefinition Height="Auto"/>
                 </Grid.RowDefinitions>
-                <RadioButton x:Name="rdbGrooming" Content="Grooming" FontFamily="Montserrat" 
+                <CheckBox x:Name="cbGrooming" Content="Grooming" FontFamily="Montserrat" 
                          FontSize="20" FontWeight="Light"
                          Margin="0,5" Grid.Column="0" Grid.Row="0"/>
-                <RadioButton x:Name="rdbCheckUp" Content="Check up" FontFamily="Montserrat" 
+                <CheckBox x:Name="cbCheckUp" Content="Check up" FontFamily="Montserrat" 
                          FontSize="20" FontWeight="Light"
                          Margin="0,5" Grid.Column="0" Grid.Row="1"/>
-                <RadioButton x:Name="rdbSterilisasi" Content="Sterilisasi" FontFamily="Montserrat" 
+                <CheckBox x:Name="cbSterilisasi" Content="Sterilisasi" FontFamily="Montserrat" 
                          FontSize="20" FontWeight="Light"
                          Margin="0,5" Grid.Column="1" Grid.Row="0"/>
-                <RadioButton x:Name="rdbKawin" Content="Kawin" FontFamily="Montserrat" 
+                <CheckBox x:Name="cbKawin" Content="Kawin" FontFamily="Montserrat" 
                          FontSize="20" FontWeight="Light"
                          Margin="0,5" Grid.Row="1" Grid.Column="1"/>
-                <RadioButton x:Name="rdbVaksin" Content="Vaksin" FontFamily="Montserrat" 
+                <CheckBox x:Name="cbVaksin" Content="Vaksin" FontFamily="Montserrat" 
                          FontSize="20" FontWeight="Light"
                          Margin="0,5" Grid.Row="0" Grid.Column="2"/>
-                <RadioButton x:Name="rdbCukur" Content="Cukur" FontFamily="Montserrat" 
+                <CheckBox x:Name="cbCukur" Content="Cukur" FontFamily="Montserrat" 
                          FontSize="20" FontWeight="Light"
                          Margin="0,5" Grid.Row="1" Grid.Column="2"/>
             </Grid>

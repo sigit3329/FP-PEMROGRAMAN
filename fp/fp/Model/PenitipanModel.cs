@@ -34,10 +34,35 @@ namespace fp.Model
             return dsPenitipan;
         }
         //insert data form penitipan
-        public bool InsertPenitipan()
+        public int InsertPenitipan()
         {
             string data = "'"+nama+ "', '" + namaHewan + "', " + noKamar + ", '" + tanggalMasuk + "', '" + tanggalKeluar + "'";
-            return template.Insert("penitipan", data);
+
+            return template.InsertReturnID("penitipan", data);
+        }
+        public int JumlahHargaKamar(int kodePenitipan)
+        {
+            int result = 0;
+            DataSet ds = new DataSet();
+            string query = $"SELECT (kamar.harga_kamar * DATEDIFF(day, Tanggal_masuk, Tanggal_keluar)) " +
+                $"FROM penitipan JOIN kamar ON penitipan.No_kamar = kamar.No_kamar " +
+                $"WHERE Kode_penitipan = {kodePenitipan}";
+            ds = template.SelectData(query, "kamar");
+            result = Convert.ToInt32(ds.Tables[0].Rows[0][0]);
+            return result;
+        }
+        public int JumlahHargaLayanan(int kodePenitipan)
+        {
+            int result = 0;
+            DataSet ds = new DataSet();
+            string query = $"SELECT SUM(layanan.harga) " +
+                $"FROM pemesanan_layanan JOIN layanan ON pemesanan_layanan.id_layanan = layanan.No_layanan " +
+                $"WHERE id_penitipan = {kodePenitipan} " +
+                $"GROUP BY id_penitipan";
+
+            ds = template.SelectData(query, "pemesanan_layanan");
+            result = Convert.ToInt32(ds.Tables[0].Rows[0][0]);
+            return result;
         }
     }
 }

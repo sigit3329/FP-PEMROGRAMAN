@@ -22,7 +22,7 @@ namespace fp.Model
             conn = new SqlConnection();
             //set connection
             conn.ConnectionString = @"Data Source = LAPTOP-RQAD3GT0\SQLEXPRESS;" +
-                                    "Initial Catalog = PENITIPAN_HEWAN;" +
+                                    "Initial Catalog = PENITIPAN_HEWAN_BARU;" +
                                     "Integrated Security = True";
 
             return conn;
@@ -52,6 +52,35 @@ namespace fp.Model
                 else
                 {
                     command.CommandText = "SELECT * FROM " + tabel + " WHERE " + kondisi;
+                }
+                SqlDataAdapter sda = new SqlDataAdapter(command);//untuk menyimpan data hasil dari execute command query
+                sda.Fill(ds, tabel);
+            }
+            catch (SqlException)
+            {
+                ds = null;
+            }
+            conn.Close();//close koneksi ke ds agar aplikasi tidak terlalu berat
+            return ds;
+        }
+
+        public DataSet SelectJoinOne(string tabel, string kondisi, string join)
+        {
+            DataSet ds = new DataSet();
+
+            try//try dan catch sebagai eror handling
+            {
+                conn.Open();
+                command = new SqlCommand();
+                command.Connection = conn;
+                command.CommandType = CommandType.Text;
+                if (kondisi == null)
+                {
+                    command.CommandText = "SELECT * FROM " + tabel + " JOIN " + join;
+                }
+                else
+                {
+                    command.CommandText = "SELECT * FROM " + tabel +  " JOIN " + join + " WHERE " + kondisi;
                 }
                 SqlDataAdapter sda = new SqlDataAdapter(command);//untuk menyimpan data hasil dari execute command query
                 sda.Fill(ds, tabel);
@@ -102,12 +131,34 @@ namespace fp.Model
                 command.ExecuteNonQuery();
                 result = true;
             }
+            catch (SqlException ex)
+            {
+                result = false;
+                MessageBox.Show("Error : " + ex);
+            }
+            conn.Close();
+            return result;
+        }
+
+        public int InsertReturnID(string tabel, string data)//menggunakan bool karena insert itu true dan flse
+        {
+            int lastID = 0;
+            try
+            {
+                string query = "INSERT INTO " + tabel + " VALUES (" + data + ") SELECT SCOPE_IDENTITY()";
+                conn.Open();
+                command = new SqlCommand();
+                command.Connection = conn;
+                command.CommandText = query;
+                lastID = Convert.ToInt32(command.ExecuteScalar());
+                result = true;
+            }
             catch (SqlException)
             {
                 result = false;
             }
             conn.Close();
-            return result;
+            return lastID;
         }
 
         //template update data

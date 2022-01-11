@@ -39,7 +39,10 @@ namespace fp.Model
         public DataSet KodePenitipan()
         {
             DataSet ds = new DataSet();
-            string query = "select Kode_penitipan, Nama_hewan from penitipan where Tanggal_keluar < GETDATE()";
+            string query = $"select Kode_penitipan, Nama_hewan from penitipan " +
+                $"join hewan_pelanggan on penitipan.Nama_hewan = hewan_pelanggan.Nama " +
+                $"join pelanggan on hewan_pelanggan.Nama_pemilik = pelanggan.Username " +
+                $"where Tanggal_keluar <= GETDATE() AND Nama_pemilik = '{PelangganModel.namaUser}'";
             ds = template.SelectData(query,"kamar");
             return ds;
         }

@@ -77,6 +77,7 @@
     <Compile Include="Model\KamarModel.cs" />
     <Compile Include="Model\ModelTemplate.cs" />
     <Compile Include="Model\PelangganModel.cs" />
+    <Compile Include="Model\PemesananLayananModel.cs" />
     <Compile Include="Model\PenitipanModel.cs" />
     <Compile Include="View\HistoryPage.xaml.cs">
       <DependentUpon>HistoryPage.xaml</DependentUpon>

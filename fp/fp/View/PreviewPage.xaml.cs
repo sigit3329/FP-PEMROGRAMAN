@@ -26,7 +26,13 @@ namespace fp.View
             InitializeComponent();
             penitipan = new Controller.Penitipan(this);
             
-            penitipan.ShowPenitipanForm();
+            
+            // penitipan.ShowPenitipanForm();
+        }
+
+        private void btnClose_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
         }
     }
 }

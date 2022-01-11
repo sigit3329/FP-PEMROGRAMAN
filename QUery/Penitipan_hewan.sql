@@ -46,6 +46,12 @@ harga int not null
 )
 
 INSERT INTO layanan VALUES ( '1', 'Grooming', 50000 )
+INSERT INTO layanan VALUES ( '2', 'Sterilisasi', 55000 )
+INSERT INTO layanan VALUES ( '3', 'Vaksin', 45000 )
+INSERT INTO layanan VALUES ( '4', 'Check Up', 30000 )
+INSERT INTO layanan VALUES ( '5', 'Kawin', 60000 )
+INSERT INTO layanan VALUES ( '6', 'Cukur', 30000 )
+
 --CREATE TABEL PENITIPAN
 CREATE TABLE penitipan (
 Kode_penitipan int identity (1,1) primary key not null,
@@ -91,6 +97,7 @@ select * from kamar
 select * from layanan
 select * from pemesanan_layanan
 select * from hewan_pelanggan
+select * from pelanggan
 
 INSERT INTO hewan_pelanggan VALUES ( 'AWKOAWO', 'Kelompok6', 'KURA-KURA','')
 
@@ -99,3 +106,28 @@ DELETE FROM kamar WHERE No_kamar=6
 
 --untuk reset int identity
 DBCC CHECKIDENT ('kamar', RESEED, 1)
+
+SELECT * FROM pemesanan_layanan JOIN layanan ON pemesanan_layanan.id_layanan = layanan.No_layanan;
+
+SELECT 
+	Kode_penitipan, Tanggal_masuk, Tanggal_keluar, DATEDIFF(day, Tanggal_masuk, Tanggal_keluar) AS 'Perbedaan Tanggal'
+	FROM penitipan
+GO
+
+SELECT 
+	(kamar.harga_kamar * DATEDIFF(day, Tanggal_masuk, Tanggal_keluar))
+	FROM penitipan
+		JOIN kamar ON penitipan.No_kamar = kamar.No_kamar
+	WHERE Kode_penitipan = 22
+
+SELECT SUM(layanan.harga)
+	FROM pemesanan_layanan
+		JOIN layanan ON pemesanan_layanan.id_layanan = layanan.No_layanan
+	WHERE id_penitipan = 22
+	GROUP BY id_penitipan
+
+	select Kode_penitipan, Nama_hewan from penitipan where Tanggal_keluar <= GETDATE()
+	select Kode_penitipan, Nama_hewan from penitipan
+		join hewan_pelanggan on penitipan.Nama_hewan = hewan_pelanggan.Nama
+		join pelanggan on hewan_pelanggan.Nama_pemilik = pelanggan.Username
+		where Tanggal_keluar <= GETDATE() AND Nama_pemilik = 'jaka'
