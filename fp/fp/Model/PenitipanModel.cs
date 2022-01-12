@@ -30,10 +30,10 @@ namespace fp.Model
         public DataSet dataPenitipan()
         {
             DataSet dsPenitipan = new DataSet();
-            dsPenitipan = template.Select("penitipan", null);
+            dsPenitipan = template.Select("penitipan", "Nama_pemesan = '"+PelangganModel.namaUser+"'");
             return dsPenitipan;
         }
-        //insert data form penitipan
+        //insert data form penitipan dengan return lastID
         public int InsertPenitipan()
         {
             string data = "'"+nama+ "', '" + namaHewan + "', " + noKamar + ", '" + tanggalMasuk + "', '" + tanggalKeluar + "'";

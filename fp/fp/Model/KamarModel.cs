@@ -36,6 +36,8 @@ namespace fp.Model
             return result;
         }
 
+
+
         public DataSet KodePenitipan()
         {
             DataSet ds = new DataSet();
@@ -49,9 +51,13 @@ namespace fp.Model
         public DataSet HistoryKunjungan()
         {
             DataSet ds = new DataSet();
-            string query = "select top 3 CONVERT(varchar(20),Tanggal_masuk, 111 ) from penitipan order by Tanggal_masuk desc";
+            string query = "select top 3 CONVERT(varchar(20),Tanggal_masuk, 106 ) as Tanggal, Nama_hewan from penitipan WHERE Nama_pemesan = '" + PelangganModel.namaUser + "' order by Tanggal_masuk desc";
             ds = template.SelectData(query, "kamar");
             return ds;
+        }
+        public bool Updatekamar()
+        {
+            string data = ""
         }
     }
 }

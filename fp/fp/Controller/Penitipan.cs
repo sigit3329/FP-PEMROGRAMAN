@@ -41,7 +41,7 @@ namespace fp.Controller
             this.preview = preview;
         }
 
-        //show data penitipan kedalam datagrid
+        //show data penitipan kedalam datagrid pada MainPage
         public void dataPenitipan()
         {
             DataSet data = penitipanModel.dataPenitipan();
@@ -72,18 +72,21 @@ namespace fp.Controller
             penitipanModel.tanggalKeluar = penitipan.dtpTanggalKeluar.SelectedDate.Value.ToString("yyyy-MM-dd");
 
             //proses insert
-            int lastPenitipanID = penitipanModel.InsertPenitipan();
+            int lastPenitipanID = penitipanModel.InsertPenitipan();//ini ada return last id
             //information
             if (lastPenitipanID > 0)
             {
                 MessageBox.Show("data berhasil ditambahkan ke tabel penitipan");
+
+                //memasukkan data ke dalam tabel pemesanan_layanan || column id_layanan 
                 List<int> listLayanan = getListLayanan();
 
                 foreach (int layanan in listLayanan)
                 {
-                    pemesananLayananModel.InsertPemesananLayanan(lastPenitipanID, layanan);
+                    pemesananLayananModel.InsertPemesananLayanan(lastPenitipanID, layanan);//memasukkan yang 2,5,3 dll dari cbPenitipan ke dalam column id_layanan
                 }
 
+                //menampilkan preview layanan yang dipilih
                 DataSet ds = pemesananLayananModel.GetPemesananLayanan(lastPenitipanID);
                 if (ds.Tables[0].Rows.Count > 0)
                 {
@@ -95,7 +98,7 @@ namespace fp.Controller
 
                     preview.txtLayanan.Text = s;
                 }
-
+                //menampilkan data yang dipilih pada form penitipan
                 preview.txtKodePenitipan.Text = lastPenitipanID.ToString();
                 preview.txtNamaBinatang.Text = penitipanModel.nama.ToString();
                 preview.txtNomorKamar.Text = noKamar.ToString();
@@ -126,28 +129,6 @@ namespace fp.Controller
 
             return listLayanan;
         }
-
-        /*public void ShowPenitipanForm()
-        {
-            preview.txtNamaBinatang.Text = penitipan.txtNamaHewan.Text;
-            int noKamar = 0;
-            if (penitipan.cmbJenisKamar.Text == "Regular")
-            {
-                noKamar = 1;
-            }
-            else if (penitipan.cmbJenisKamar.Text == "Small")
-            {
-                noKamar = 2;
-            }
-            else
-            {
-                noKamar = 3;
-            }
-            preview.txtNomorKamar.Text = noKamar.ToString();
-            preview.txtTanggalMasuk.Text = penitipan.dtpTanggalMasuk.SelectedDate.Value.ToString("yyyy-MM-dd");
-            preview.txtTanggalKeluar.Text = penitipan.dtpTanggalKeluar.SelectedDate.Value.ToString("yyyy-MM-dd");
-
-        }*/
 
     }
 }

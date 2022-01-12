@@ -19,7 +19,7 @@ namespace fp.Model
         public Boolean InsertPemesananLayanan(int penitipan, int layanan)
         {
             string data = $"{penitipan}, {layanan}";
-            return template.Insert("pemesanan_layanan", data);
+            return template.Insert("pemesanan_layanan", data);//ini memasukkan yang 2, 3, 4, 5, dll
         }
 
         public DataSet GetPemesananLayanan(int penitipan)

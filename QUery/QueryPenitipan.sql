@@ -1,5 +1,21 @@
 USE PENITIPAN_HEWAN
 
+--MENGHITUNG TOTAL HARGA KAMAR PERHARI
+SELECT 
+	(kamar.harga_kamar * DATEDIFF(day, Tanggal_masuk, Tanggal_keluar))
+	FROM penitipan
+		JOIN kamar ON penitipan.No_kamar = kamar.No_kamar
+	WHERE Kode_penitipan = 22
+GO
+
+--MENGHITUNG TOTAL HARGA LAYANAN YANG DIPILIH
+SELECT SUM(layanan.harga)
+	FROM pemesanan_layanan
+		JOIN layanan ON pemesanan_layanan.id_layanan = layanan.No_layanan
+	WHERE id_penitipan = 22
+	GROUP BY id_penitipan
+GO
+
 select * from kamar where status_kamar = 'Kosong'
 
 select * from hewan_pelanggan where Nama_pemilik = 'Kelompok6'
