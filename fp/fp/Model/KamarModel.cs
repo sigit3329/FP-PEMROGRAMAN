@@ -57,8 +57,10 @@ namespace fp.Model
         }
         public bool Updatekamar()
         {
-            string data = ""
+            string tabel = $"kamar";
+            string data = $"status_kamar='Terisi'";
+            string kondisi = $"Jenis_kamar = '{jenisKamar}'";
+            return template.Update(tabel, data, kondisi);
         }
     }
 }
-//test bos

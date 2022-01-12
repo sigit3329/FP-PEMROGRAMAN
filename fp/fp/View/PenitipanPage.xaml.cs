@@ -22,19 +22,21 @@ namespace fp.View
     {
         Controller.HewanPelanggan hewanPelanggan;
         Controller.Penitipan penitipan;
+        Controller.Kamar kamar;
         public PenitipanPage()
         {
             InitializeComponent();
             hewanPelanggan = new Controller.HewanPelanggan(this);
             penitipan = new Controller.Penitipan(this);
+            kamar = new Controller.Kamar(this);
         }
 
         private void btnPesan_Click(object sender, RoutedEventArgs e)
         {
+            kamar.UpdateKamarIsi();
             hewanPelanggan.TambahHewan();
             penitipan.TambahPenitipan();
-
-
+            
         }
     }
 }
