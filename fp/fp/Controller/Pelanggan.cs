@@ -13,10 +13,18 @@ namespace fp.Controller
     {
         //decalre object view dan model
         Model.PelangganModel pelanggan;
+        View.RegisterWindow register;
         View.LoginWindow login;
         View.ProfilePage profile;//KALO BUAT 2 VIEW HARUS BUAT OBJCET VIEW BARU
 
+
         //instance dalam constructor
+        
+        public Pelanggan(View.RegisterWindow register)
+        {
+            pelanggan = new Model.PelangganModel();
+            this.register = register;
+        }
         public Pelanggan(View.LoginWindow login)//pakai parameter dari view agar tidak bisa diakses dari class lain
         {
             pelanggan = new Model.PelangganModel();
@@ -48,12 +56,7 @@ namespace fp.Controller
             }
 
         }
-        View.RegisterWindow register;
-        public Pelanggan(View.RegisterWindow register)
-        {
-            pelanggan = new Model.PelangganModel();
-            this.register = register;
-        }
+        
         
         public void Register()
         {
