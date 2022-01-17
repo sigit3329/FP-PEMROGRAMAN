@@ -5,25 +5,22 @@ SELECT
 	(kamar.harga_kamar * DATEDIFF(day, Tanggal_masuk, Tanggal_keluar))
 	FROM penitipan
 		JOIN kamar ON penitipan.No_kamar = kamar.No_kamar
-	WHERE Kode_penitipan = 1
+	WHERE Kode_penitipan = 22
 GO
 
 --MENGHITUNG TOTAL HARGA LAYANAN YANG DIPILIH
 SELECT SUM(layanan.harga)
 	FROM pemesanan_layanan
 		JOIN layanan ON pemesanan_layanan.id_layanan = layanan.No_layanan
-	WHERE id_penitipan = 1
+	WHERE id_penitipan = 22
 	GROUP BY id_penitipan
 GO
 
---UPDATE STATUS KAMAR 
-UPDATE kamar set status_kamar='Kosong' 
-	where Jenis_kamar = 'Regular'
-GO
-
 select * from kamar where status_kamar = 'Kosong'
+
 select * from hewan_pelanggan where Nama_pemilik = 'Kelompok6'
-select * from penitipan
+
+select * from layanan
 
 insert into penitipan values
 ( '0X555A', 'Kelompok6', 'Doggy', 1, '2021/12/25', '2021/12/27' )
