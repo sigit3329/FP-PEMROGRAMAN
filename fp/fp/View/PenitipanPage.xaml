@@ -34,13 +34,7 @@
                      VerticalContentAlignment="Center" FontStyle="Normal"/>
                     </ComboBox>
                     <Label Margin="0,15,0,0" Content="Jenis kamar" FontSize="20" FontWeight="Medium" FontFamily="Montserrat"/>
-                    <ComboBox x:Name="cmbJenisKamar" Height="30" Width="250" HorizontalAlignment="Left" FontSize="17">
-                        <ComboBoxItem Content="Regular" FontFamily="Montserrat" FontSize="20" FontWeight="Light" 
-                     VerticalContentAlignment="Center" FontStyle="Normal"/>
-                        <ComboBoxItem Content="Small" FontFamily="Montserrat" FontSize="20" FontWeight="Light" 
-                     VerticalContentAlignment="Center" FontStyle="Normal"/>
-                        <ComboBoxItem Content="Ekslusif" FontFamily="Montserrat" FontSize="20" FontWeight="Light" 
-                     VerticalContentAlignment="Center" FontStyle="Normal"/>
+                    <ComboBox x:Name="cmbJenisKamar" ItemsSource="{Binding}" Height="30" Width="250" HorizontalAlignment="Left" FontSize="17" >
                     </ComboBox>
                 </StackPanel>
             </Grid>

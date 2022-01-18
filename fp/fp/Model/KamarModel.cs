@@ -62,5 +62,12 @@ namespace fp.Model
             string kondisi = $"Jenis_kamar = '{jenisKamar}'";
             return template.Update(tabel, data, kondisi);
         }
+        public DataSet KamarKosong()
+        {
+            DataSet ds = new DataSet();
+            string query = "select Jenis_kamar from kamar where status_kamar = 'Kosong'";
+            ds = template.SelectData(query,"kamar");
+            return ds;
+        }
     }
 }

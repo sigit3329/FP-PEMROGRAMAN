@@ -29,6 +29,7 @@ namespace fp.View
             hewanPelanggan = new Controller.HewanPelanggan(this);
             penitipan = new Controller.Penitipan(this);
             kamar = new Controller.Kamar(this);
+            kamar.KamarKosong();
         }
 
         private void btnPesan_Click(object sender, RoutedEventArgs e)
@@ -38,5 +39,6 @@ namespace fp.View
             penitipan.TambahPenitipan();
             
         }
+
     }
 }

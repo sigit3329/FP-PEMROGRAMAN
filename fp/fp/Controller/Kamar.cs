@@ -60,5 +60,14 @@ namespace fp.Controller
             }
         }
 
+        public void KamarKosong()
+        {
+            DataSet ds = kamar.KamarKosong();
+
+            for(int x = 0; x < ds.Tables[0].Rows.Count; x++)
+            {
+                penitipan.cmbJenisKamar.Items.Add(ds.Tables[0].Rows[x][0].ToString());
+            }
+        }
     }
 }
