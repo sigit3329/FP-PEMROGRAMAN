@@ -87,7 +87,7 @@ namespace fp.Controller
                 }
 
                 //menampilkan preview layanan yang dipilih
-                DataSet ds = pemesananLayananModel.GetPemesananLayanan(lastPenitipanID);
+                DataSet ds = pemesananLayananModel.GetPemesananLayananBo(lastPenitipanID);
                 if (ds.Tables[0].Rows.Count > 0)
                 {
                     String s = "";
@@ -100,7 +100,7 @@ namespace fp.Controller
                 }
                 //menampilkan data yang dipilih pada form penitipan
                 preview.txtKodePenitipan.Text = lastPenitipanID.ToString();
-                preview.txtNamaBinatang.Text = penitipanModel.nama.ToString();
+                preview.txtNamaBinatang.Text = penitipanModel.namaHewan.ToString();
                 preview.txtNomorKamar.Text = noKamar.ToString();
                 preview.txtTipeKamar.Text = penitipan.cmbJenisKamar.Text.ToString();
                 int jumlahHarga = penitipanModel.JumlahHargaKamar(lastPenitipanID) + penitipanModel.JumlahHargaLayanan(lastPenitipanID);

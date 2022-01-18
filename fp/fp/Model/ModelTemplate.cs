@@ -64,35 +64,6 @@ namespace fp.Model
             return ds;
         }
 
-        public DataSet SelectJoinOne(string tabel, string kondisi, string join)
-        {
-            DataSet ds = new DataSet();
-
-            try//try dan catch sebagai eror handling
-            {
-                conn.Open();
-                command = new SqlCommand();
-                command.Connection = conn;
-                command.CommandType = CommandType.Text;
-                if (kondisi == null)
-                {
-                    command.CommandText = "SELECT * FROM " + tabel + " JOIN " + join;
-                }
-                else
-                {
-                    command.CommandText = "SELECT * FROM " + tabel +  " JOIN " + join + " WHERE " + kondisi;
-                }
-                SqlDataAdapter sda = new SqlDataAdapter(command);//untuk menyimpan data hasil dari execute command query
-                sda.Fill(ds, tabel);
-            }
-            catch (SqlException)
-            {
-                ds = null;
-            }
-            conn.Close();//close koneksi ke ds agar aplikasi tidak terlalu berat
-            return ds;
-        }
-
         //template select data (counting, top, grouping dll)
         public DataSet SelectData(string query, string tabel)//menggunakan dataSet agar dapat menampung semua data dapat ditampilkan
                                                              // kalo pake yang lain juga bisa, tapi yang ditampikan hanya 1 dan data yang paling terakhir

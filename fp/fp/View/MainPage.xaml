@@ -53,7 +53,7 @@
                     <RowDefinition Height="70"/>
                     <RowDefinition/>
                 </Grid.RowDefinitions>
-                <Label Content="Checkut hari ini" Margin="0,30,0,0"
+                <Label Content="Checkout hari ini" Margin="0,30,0,0"
                        FontSize="24" FontWeight="Bold" FontFamily="Montserrat"/>
                 <DataGrid x:Name="dgKodePenitipan" Width="250" HorizontalAlignment="Left"
                           Grid.Row="1" ItemsSource="{Binding}" /> 

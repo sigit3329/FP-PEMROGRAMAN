@@ -22,11 +22,10 @@ namespace fp.Model
             return template.Insert("pemesanan_layanan", data);//ini memasukkan yang 2, 3, 4, 5, dll
         }
 
-        public DataSet GetPemesananLayanan(int penitipan)
+        public DataSet GetPemesananLayananBo(int penitipan)
         {
-            string kondisi = $"id_penitipan = {penitipan}";
-            string join = "layanan ON pemesanan_layanan.id_layanan = layanan.No_layanan";
-            return template.SelectJoinOne("pemesanan_layanan", kondisi, join);
+            string query = "SELECT * FROM pemesanan_layanan JOIN layanan ON pemesanan_layanan.id_layanan = layanan.No_layanan WHERE id_penitipan = "+penitipan+"";
+            return template.SelectData(query, "pemesanan_layanan");
         }
     }
 }
