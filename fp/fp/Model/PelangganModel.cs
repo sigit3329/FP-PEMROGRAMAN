@@ -35,7 +35,13 @@ namespace fp.Model
 
         public string jk { get; set; }
 
+
+
+        //variable buat menampilkan profile
         public static string namaUser;
+        public static string noHpProfile;
+        public static string alamatProfile;
+        public static string emailProfile;
 
         //function validasi login
         public Boolean CekLogin()
@@ -47,7 +53,11 @@ namespace fp.Model
             if (ds.Tables[0].Rows.Count > 0)//jika jumlah barisnya lebih dari 0 maka ada datanya
             {
                 result = true;
-                namaUser = ds.Tables[0].Rows[0][1].ToString();
+                namaUser = ds.Tables[0].Rows[0][0].ToString();
+                noHpProfile = ds.Tables[0].Rows[0][1].ToString();
+                alamatProfile = ds.Tables[0].Rows[0][2].ToString();
+                emailProfile = ds.Tables[0].Rows[0][3].ToString();
+
             }
             else
             {
@@ -61,6 +71,13 @@ namespace fp.Model
             return temp.Insert("pelanggan", data);
         }
 
-
+        //select data pelanggan
+        public DataSet DataPelanggan()
+        {
+            DataSet ds = new DataSet();
+            string query = "select username, No_hp, Alamat, Email from pelanggan";
+            ds = temp.SelectData(query, "pelanngan");
+            return ds;
+        }
     }
 }

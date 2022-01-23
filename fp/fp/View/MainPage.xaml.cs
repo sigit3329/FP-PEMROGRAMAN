@@ -20,9 +20,16 @@ namespace fp.View
     /// </summary>
     public partial class MainPage : Page
     {
+        Controller.Kamar kamar;
         public MainPage()
         {
             InitializeComponent();
+
+            //instance
+            kamar = new Controller.Kamar(this);
+            kamar.ShowKamarKosong();
+            kamar.DataKodePenitipan();
+            kamar.DataHistoryKunjungan();
         }
     }
 }

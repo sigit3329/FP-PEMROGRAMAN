@@ -69,8 +69,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Controller\Kamar.cs" />
     <Compile Include="Controller\Pelanggan.cs" />
     <Compile Include="Controller\Penitipan.cs" />
+    <Compile Include="Model\KamarModel.cs" />
     <Compile Include="Model\ModelTemplate.cs" />
     <Compile Include="Model\PelangganModel.cs" />
     <Compile Include="Model\PenitipanModel.cs" />
@@ -79,6 +81,9 @@
     </Compile>
     <Compile Include="View\PenitipanPage.xaml.cs">
       <DependentUpon>PenitipanPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\PreviewPage.xaml.cs">
+      <DependentUpon>PreviewPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\ProfilePage.xaml.cs">
       <DependentUpon>ProfilePage.xaml</DependentUpon>
@@ -117,6 +122,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="View\PenitipanPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\PreviewPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

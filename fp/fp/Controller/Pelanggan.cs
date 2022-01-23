@@ -13,13 +13,27 @@ namespace fp.Controller
     {
         //decalre object view dan model
         Model.PelangganModel pelanggan;
+        View.RegisterWindow register;
         View.LoginWindow login;
+        View.ProfilePage profile;//KALO BUAT 2 VIEW HARUS BUAT OBJCET VIEW BARU
+
 
         //instance dalam constructor
+        
+        public Pelanggan(View.RegisterWindow register)
+        {
+            pelanggan = new Model.PelangganModel();
+            this.register = register;
+        }
         public Pelanggan(View.LoginWindow login)//pakai parameter dari view agar tidak bisa diakses dari class lain
         {
             pelanggan = new Model.PelangganModel();
             this.login = login;//pakai this karena object dan parameter namanya sama
+        }
+        public Pelanggan(View.ProfilePage profile)//KALO PAKE 2 VIEW HARUS BIKIN INSTANCE DI SINI JUGA
+        {
+            pelanggan = new Model.PelangganModel();
+            this.profile = profile;//pakai this karena object dan parameter namanya sama
         }
 
         public void Login()
@@ -42,12 +56,7 @@ namespace fp.Controller
             }
 
         }
-        View.RegisterWindow register;
-        public Pelanggan(View.RegisterWindow register)
-        {
-            pelanggan = new Model.PelangganModel();
-            this.register = register;
-        }
+        
         
         public void Register()
         {
@@ -80,6 +89,16 @@ namespace fp.Controller
                     "Silahkan periksa dan lengkap data anda");
             }
         }
+
+        public void ShowProfileData()
+        {
+            profile.txtNama.Text = Model.PelangganModel.namaUser;
+            profile.txtNoHp.Text = Model.PelangganModel.noHpProfile;
+            profile.txtAlamat.Text = Model.PelangganModel.alamatProfile;
+            profile.txtEmail.Text = Model.PelangganModel.emailProfile;
+        }
+
+        
 
     }
 }

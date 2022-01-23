@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\KULIAH\semester 3\PEMROGRAMAN\PRAKTIKUM\fp\fp\obj\Release\
+C:\Users\muham\Source\Repos\FP-PEMROGRAMAN\fp\fp\obj\Release\
 fp
 none
 false
 TRACE
-D:\KULIAH\semester 3\PEMROGRAMAN\PRAKTIKUM\fp\fp\App.xaml
-21685669277
+C:\Users\muham\Source\Repos\FP-PEMROGRAMAN\fp\fp\App.xaml
+81847957749
 
-61270768216
+191911902106
 13-1142990016
-View\LoginWindow.xaml;View\MainWindow.xaml;
+View\HistoryPage.xaml;View\LoginWindow.xaml;View\MainPage.xaml;View\MainWindow.xaml;View\PenitipanPage.xaml;View\PreviewPage.xaml;View\ProfilePage.xaml;View\RegisterWindow.xaml;
 
-False
+True
 

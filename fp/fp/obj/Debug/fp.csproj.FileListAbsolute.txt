@@ -80,3 +80,91 @@ D:\1.DOKUMEN\3,KULIAH SMT 3\PEMROGRAMAN LANJUT\fp\fp\fp\obj\Debug\fp.csproj.Gene
 D:\1.DOKUMEN\3,KULIAH SMT 3\PEMROGRAMAN LANJUT\fp\fp\fp\obj\Debug\fp.csproj.CoreCompileInputs.cache
 D:\1.DOKUMEN\3,KULIAH SMT 3\PEMROGRAMAN LANJUT\fp\fp\fp\obj\Debug\fp.exe
 D:\1.DOKUMEN\3,KULIAH SMT 3\PEMROGRAMAN LANJUT\fp\fp\fp\obj\Debug\fp.pdb
+D:\1.DOKUMEN\3,KULIAH SMT 3\PEMROGRAMAN LANJUT\FP PEMROG GITHUB\fp\fp\bin\Debug\fp.exe.config
+D:\1.DOKUMEN\3,KULIAH SMT 3\PEMROGRAMAN LANJUT\FP PEMROG GITHUB\fp\fp\bin\Debug\fp.exe
+D:\1.DOKUMEN\3,KULIAH SMT 3\PEMROGRAMAN LANJUT\FP PEMROG GITHUB\fp\fp\bin\Debug\fp.pdb
+D:\1.DOKUMEN\3,KULIAH SMT 3\PEMROGRAMAN LANJUT\FP PEMROG GITHUB\fp\fp\obj\Debug\fp.csproj.AssemblyReference.cache
+D:\1.DOKUMEN\3,KULIAH SMT 3\PEMROGRAMAN LANJUT\FP PEMROG GITHUB\fp\fp\obj\Debug\View\HistoryPage.g.cs
+D:\1.DOKUMEN\3,KULIAH SMT 3\PEMROGRAMAN LANJUT\FP PEMROG GITHUB\fp\fp\obj\Debug\View\LoginWindow.g.cs
+D:\1.DOKUMEN\3,KULIAH SMT 3\PEMROGRAMAN LANJUT\FP PEMROG GITHUB\fp\fp\obj\Debug\View\MainPage.g.cs
+D:\1.DOKUMEN\3,KULIAH SMT 3\PEMROGRAMAN LANJUT\FP PEMROG GITHUB\fp\fp\obj\Debug\View\MainWindow.g.cs
+D:\1.DOKUMEN\3,KULIAH SMT 3\PEMROGRAMAN LANJUT\FP PEMROG GITHUB\fp\fp\obj\Debug\View\PenitipanPage.g.cs
+D:\1.DOKUMEN\3,KULIAH SMT 3\PEMROGRAMAN LANJUT\FP PEMROG GITHUB\fp\fp\obj\Debug\View\ProfilePage.g.cs
+D:\1.DOKUMEN\3,KULIAH SMT 3\PEMROGRAMAN LANJUT\FP PEMROG GITHUB\fp\fp\obj\Debug\View\RegisterWindow.g.cs
+D:\1.DOKUMEN\3,KULIAH SMT 3\PEMROGRAMAN LANJUT\FP PEMROG GITHUB\fp\fp\obj\Debug\App.g.cs
+D:\1.DOKUMEN\3,KULIAH SMT 3\PEMROGRAMAN LANJUT\FP PEMROG GITHUB\fp\fp\obj\Debug\fp_MarkupCompile.cache
+D:\1.DOKUMEN\3,KULIAH SMT 3\PEMROGRAMAN LANJUT\FP PEMROG GITHUB\fp\fp\obj\Debug\fp_MarkupCompile.lref
+D:\1.DOKUMEN\3,KULIAH SMT 3\PEMROGRAMAN LANJUT\FP PEMROG GITHUB\fp\fp\obj\Debug\App.baml
+D:\1.DOKUMEN\3,KULIAH SMT 3\PEMROGRAMAN LANJUT\FP PEMROG GITHUB\fp\fp\obj\Debug\View\HistoryPage.baml
+D:\1.DOKUMEN\3,KULIAH SMT 3\PEMROGRAMAN LANJUT\FP PEMROG GITHUB\fp\fp\obj\Debug\View\LoginWindow.baml
+D:\1.DOKUMEN\3,KULIAH SMT 3\PEMROGRAMAN LANJUT\FP PEMROG GITHUB\fp\fp\obj\Debug\View\MainPage.baml
+D:\1.DOKUMEN\3,KULIAH SMT 3\PEMROGRAMAN LANJUT\FP PEMROG GITHUB\fp\fp\obj\Debug\View\MainWindow.baml
+D:\1.DOKUMEN\3,KULIAH SMT 3\PEMROGRAMAN LANJUT\FP PEMROG GITHUB\fp\fp\obj\Debug\View\PenitipanPage.baml
+D:\1.DOKUMEN\3,KULIAH SMT 3\PEMROGRAMAN LANJUT\FP PEMROG GITHUB\fp\fp\obj\Debug\View\ProfilePage.baml
+D:\1.DOKUMEN\3,KULIAH SMT 3\PEMROGRAMAN LANJUT\FP PEMROG GITHUB\fp\fp\obj\Debug\View\RegisterWindow.baml
+D:\1.DOKUMEN\3,KULIAH SMT 3\PEMROGRAMAN LANJUT\FP PEMROG GITHUB\fp\fp\obj\Debug\fp.g.resources
+D:\1.DOKUMEN\3,KULIAH SMT 3\PEMROGRAMAN LANJUT\FP PEMROG GITHUB\fp\fp\obj\Debug\fp.Properties.Resources.resources
+D:\1.DOKUMEN\3,KULIAH SMT 3\PEMROGRAMAN LANJUT\FP PEMROG GITHUB\fp\fp\obj\Debug\fp.csproj.GenerateResource.cache
+D:\1.DOKUMEN\3,KULIAH SMT 3\PEMROGRAMAN LANJUT\FP PEMROG GITHUB\fp\fp\obj\Debug\fp.csproj.CoreCompileInputs.cache
+D:\1.DOKUMEN\3,KULIAH SMT 3\PEMROGRAMAN LANJUT\FP PEMROG GITHUB\fp\fp\obj\Debug\fp.exe
+D:\1.DOKUMEN\3,KULIAH SMT 3\PEMROGRAMAN LANJUT\FP PEMROG GITHUB\fp\fp\obj\Debug\fp.pdb
+C:\Users\Ananda\Source\Repos\FP-PEMROGRAMAN\fp\fp\bin\Debug\fp.exe.config
+C:\Users\Ananda\Source\Repos\FP-PEMROGRAMAN\fp\fp\bin\Debug\fp.exe
+C:\Users\Ananda\Source\Repos\FP-PEMROGRAMAN\fp\fp\bin\Debug\fp.pdb
+C:\Users\Ananda\Source\Repos\FP-PEMROGRAMAN\fp\fp\obj\Debug\fp.csprojAssemblyReference.cache
+C:\Users\Ananda\Source\Repos\FP-PEMROGRAMAN\fp\fp\obj\Debug\View\HistoryPage.g.cs
+C:\Users\Ananda\Source\Repos\FP-PEMROGRAMAN\fp\fp\obj\Debug\View\LoginWindow.g.cs
+C:\Users\Ananda\Source\Repos\FP-PEMROGRAMAN\fp\fp\obj\Debug\View\MainPage.g.cs
+C:\Users\Ananda\Source\Repos\FP-PEMROGRAMAN\fp\fp\obj\Debug\View\MainWindow.g.cs
+C:\Users\Ananda\Source\Repos\FP-PEMROGRAMAN\fp\fp\obj\Debug\View\PenitipanPage.g.cs
+C:\Users\Ananda\Source\Repos\FP-PEMROGRAMAN\fp\fp\obj\Debug\View\ProfilePage.g.cs
+C:\Users\Ananda\Source\Repos\FP-PEMROGRAMAN\fp\fp\obj\Debug\View\RegisterWindow.g.cs
+C:\Users\Ananda\Source\Repos\FP-PEMROGRAMAN\fp\fp\obj\Debug\App.g.cs
+C:\Users\Ananda\Source\Repos\FP-PEMROGRAMAN\fp\fp\obj\Debug\fp_MarkupCompile.cache
+C:\Users\Ananda\Source\Repos\FP-PEMROGRAMAN\fp\fp\obj\Debug\fp_MarkupCompile.lref
+C:\Users\Ananda\Source\Repos\FP-PEMROGRAMAN\fp\fp\obj\Debug\App.baml
+C:\Users\Ananda\Source\Repos\FP-PEMROGRAMAN\fp\fp\obj\Debug\View\HistoryPage.baml
+C:\Users\Ananda\Source\Repos\FP-PEMROGRAMAN\fp\fp\obj\Debug\View\LoginWindow.baml
+C:\Users\Ananda\Source\Repos\FP-PEMROGRAMAN\fp\fp\obj\Debug\View\MainPage.baml
+C:\Users\Ananda\Source\Repos\FP-PEMROGRAMAN\fp\fp\obj\Debug\View\MainWindow.baml
+C:\Users\Ananda\Source\Repos\FP-PEMROGRAMAN\fp\fp\obj\Debug\View\PenitipanPage.baml
+C:\Users\Ananda\Source\Repos\FP-PEMROGRAMAN\fp\fp\obj\Debug\View\ProfilePage.baml
+C:\Users\Ananda\Source\Repos\FP-PEMROGRAMAN\fp\fp\obj\Debug\View\RegisterWindow.baml
+C:\Users\Ananda\Source\Repos\FP-PEMROGRAMAN\fp\fp\obj\Debug\fp.g.resources
+C:\Users\Ananda\Source\Repos\FP-PEMROGRAMAN\fp\fp\obj\Debug\fp.Properties.Resources.resources
+C:\Users\Ananda\Source\Repos\FP-PEMROGRAMAN\fp\fp\obj\Debug\fp.csproj.GenerateResource.cache
+C:\Users\Ananda\Source\Repos\FP-PEMROGRAMAN\fp\fp\obj\Debug\fp.csproj.CoreCompileInputs.cache
+C:\Users\Ananda\Source\Repos\FP-PEMROGRAMAN\fp\fp\obj\Debug\fp.exe
+C:\Users\Ananda\Source\Repos\FP-PEMROGRAMAN\fp\fp\obj\Debug\fp.pdb
+D:\1.DOKUMEN\3,KULIAH SMT 3\PEMROGRAMAN LANJUT\FP PEMROG GITHUB\fp\fp\obj\Debug\View\PreviewPage.g.cs
+D:\1.DOKUMEN\3,KULIAH SMT 3\PEMROGRAMAN LANJUT\FP PEMROG GITHUB\fp\fp\obj\Debug\View\PreviewPage.baml
+C:\Users\muham\source\repos\FP-PEMROGRAMAN\fp\fp\bin\Debug\fp.exe.config
+C:\Users\muham\source\repos\FP-PEMROGRAMAN\fp\fp\bin\Debug\fp.exe
+C:\Users\muham\source\repos\FP-PEMROGRAMAN\fp\fp\bin\Debug\fp.pdb
+C:\Users\muham\source\repos\FP-PEMROGRAMAN\fp\fp\obj\Debug\fp.csproj.AssemblyReference.cache
+C:\Users\muham\source\repos\FP-PEMROGRAMAN\fp\fp\obj\Debug\View\HistoryPage.g.cs
+C:\Users\muham\source\repos\FP-PEMROGRAMAN\fp\fp\obj\Debug\View\LoginWindow.g.cs
+C:\Users\muham\source\repos\FP-PEMROGRAMAN\fp\fp\obj\Debug\View\MainPage.g.cs
+C:\Users\muham\source\repos\FP-PEMROGRAMAN\fp\fp\obj\Debug\View\MainWindow.g.cs
+C:\Users\muham\source\repos\FP-PEMROGRAMAN\fp\fp\obj\Debug\View\PenitipanPage.g.cs
+C:\Users\muham\source\repos\FP-PEMROGRAMAN\fp\fp\obj\Debug\View\PreviewPage.g.cs
+C:\Users\muham\source\repos\FP-PEMROGRAMAN\fp\fp\obj\Debug\View\ProfilePage.g.cs
+C:\Users\muham\source\repos\FP-PEMROGRAMAN\fp\fp\obj\Debug\View\RegisterWindow.g.cs
+C:\Users\muham\source\repos\FP-PEMROGRAMAN\fp\fp\obj\Debug\App.g.cs
+C:\Users\muham\source\repos\FP-PEMROGRAMAN\fp\fp\obj\Debug\fp_MarkupCompile.cache
+C:\Users\muham\source\repos\FP-PEMROGRAMAN\fp\fp\obj\Debug\fp_MarkupCompile.lref
+C:\Users\muham\source\repos\FP-PEMROGRAMAN\fp\fp\obj\Debug\App.baml
+C:\Users\muham\source\repos\FP-PEMROGRAMAN\fp\fp\obj\Debug\View\HistoryPage.baml
+C:\Users\muham\source\repos\FP-PEMROGRAMAN\fp\fp\obj\Debug\View\LoginWindow.baml
+C:\Users\muham\source\repos\FP-PEMROGRAMAN\fp\fp\obj\Debug\View\MainPage.baml
+C:\Users\muham\source\repos\FP-PEMROGRAMAN\fp\fp\obj\Debug\View\MainWindow.baml
+C:\Users\muham\source\repos\FP-PEMROGRAMAN\fp\fp\obj\Debug\View\PenitipanPage.baml
+C:\Users\muham\source\repos\FP-PEMROGRAMAN\fp\fp\obj\Debug\View\PreviewPage.baml
+C:\Users\muham\source\repos\FP-PEMROGRAMAN\fp\fp\obj\Debug\View\ProfilePage.baml
+C:\Users\muham\source\repos\FP-PEMROGRAMAN\fp\fp\obj\Debug\View\RegisterWindow.baml
+C:\Users\muham\source\repos\FP-PEMROGRAMAN\fp\fp\obj\Debug\fp.g.resources
+C:\Users\muham\source\repos\FP-PEMROGRAMAN\fp\fp\obj\Debug\fp.Properties.Resources.resources
+C:\Users\muham\source\repos\FP-PEMROGRAMAN\fp\fp\obj\Debug\fp.csproj.GenerateResource.cache
+C:\Users\muham\source\repos\FP-PEMROGRAMAN\fp\fp\obj\Debug\fp.csproj.CoreCompileInputs.cache
+C:\Users\muham\source\repos\FP-PEMROGRAMAN\fp\fp\obj\Debug\fp.exe
+C:\Users\muham\source\repos\FP-PEMROGRAMAN\fp\fp\obj\Debug\fp.pdb

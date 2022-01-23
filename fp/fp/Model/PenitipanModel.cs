@@ -12,7 +12,7 @@ namespace fp.Model
         //create object
         ModelTemplate template;
 
-        //declare variabel sesuai dengan field di tabal
+        //declare variabel sesuai dengan field di tabel
         public string kode { get; set; }
         public string nama { get; set; }
         public string alamat { get; set; }
@@ -38,6 +38,5 @@ namespace fp.Model
             return dsPenitipan;
         }
         //insert data form penitipan
-      
     }
 }

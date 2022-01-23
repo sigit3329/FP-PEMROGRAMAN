@@ -20,9 +20,16 @@ namespace fp.View
     /// </summary>
     public partial class ProfilePage : Page
     {
+        Controller.Pelanggan pelanggan;
+        
         public ProfilePage()
         {
             InitializeComponent();
+            //instance
+            pelanggan = new Controller.Pelanggan(this);
+            pelanggan.ShowProfileData();            
+
+
         }
     }
 }
