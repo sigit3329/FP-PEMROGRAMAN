@@ -53,20 +53,20 @@
                     <RowDefinition Height="70"/>
                     <RowDefinition/>
                 </Grid.RowDefinitions>
-                <Label Content="Kode penitipan" Margin="0,30,0,0"
+                <Label Content="Checkout hari ini" Margin="0,30,0,0"
                        FontSize="24" FontWeight="Bold" FontFamily="Montserrat"/>
                 <DataGrid x:Name="dgKodePenitipan" Width="250" HorizontalAlignment="Left"
-                          Grid.Row="1" ItemsSource="{Binding}"/>
+                          Grid.Row="1" ItemsSource="{Binding}" /> 
             </Grid>
             <Grid Grid.Row="1">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="70"/>
                     <RowDefinition/>
                 </Grid.RowDefinitions>
-                <Label Content="Histori kunjungan" Margin="0,30,0,0"
+                <Label Content="Histori penitipan" Margin="0,30,0,0"
                        FontSize="24" FontWeight="Bold" FontFamily="Montserrat"/>
                 <DataGrid x:Name="dgHistoriKunjungan" Width="250" HorizontalAlignment="Left"
-                              Grid.Row="1" ItemsSource="{Binding}"/>
+                          Grid.Row="1" ItemsSource="{Binding}"/>
             </Grid>
         </Grid>
     </Grid>

@@ -22,13 +22,15 @@ namespace fp.View
     {
         Controller.Pelanggan pelanggan;
         
+        
         public ProfilePage()
         {
             InitializeComponent();
             //instance
             pelanggan = new Controller.Pelanggan(this);
-            pelanggan.ShowProfileData();            
 
+            pelanggan.ShowProfileData();
+            
 
         }
     }

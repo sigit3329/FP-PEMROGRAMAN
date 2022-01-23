@@ -22,7 +22,7 @@ namespace fp.Model
             conn = new SqlConnection();
             //set connection
             conn.ConnectionString = @"Data Source = LAPTOP-RQAD3GT0\SQLEXPRESS;" +
-                                    "Initial Catalog = PENITIPAN_HEWAN;" +
+                                    "Initial Catalog = PENITIPAN_HEWAN_BARU;" +
                                     "Integrated Security = True";
 
             return conn;
@@ -102,12 +102,34 @@ namespace fp.Model
                 command.ExecuteNonQuery();
                 result = true;
             }
+            catch (SqlException ex)
+            {
+                result = false;
+                MessageBox.Show("Error : " + ex);
+            }
+            conn.Close();
+            return result;
+        }
+
+        public int InsertReturnID(string tabel, string data)//menggunakan bool karena insert itu true dan flse
+        {
+            int lastID = 0;
+            try
+            {
+                string query = "INSERT INTO " + tabel + " VALUES (" + data + ") SELECT SCOPE_IDENTITY()";
+                conn.Open();
+                command = new SqlCommand();
+                command.Connection = conn;
+                command.CommandText = query;
+                lastID = Convert.ToInt32(command.ExecuteScalar());
+                result = true;
+            }
             catch (SqlException)
             {
                 result = false;
             }
             conn.Close();
-            return result;
+            return lastID;
         }
 
         //template update data
