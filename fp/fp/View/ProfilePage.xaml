@@ -41,13 +41,13 @@
             <Label Content="Email" Grid.Row="3" Grid.Column="0" HorizontalAlignment="Left"
                    Margin="200,3,0,3" FontSize="20"/>
             <TextBox x:Name="txtNama" Grid.Row="0" Grid.Column="1"
-                     Margin="10,5,30,5"/>
+                     Margin="10,5,30,5" FontSize="16" />
             <TextBox x:Name="txtNoHp" Grid.Row="1" Grid.Column="1"
-                     Margin="10,5,30,5"/>
+                     Margin="10,5,30,5" FontSize="16"/>
             <TextBox x:Name="txtAlamat" Grid.Row="2" Grid.Column="1"
-                     Margin="10,5,30,5"/>
+                     Margin="10,5,30,5" FontSize="16"/>
             <TextBox x:Name="txtEmail" Grid.Row="3" Grid.Column="1"
-                     Margin="10,5,30,5"/>
+                     Margin="10,5,30,5" FontSize="16"/>
         </Grid>
         <Grid Grid.Row="2">
             <Button x:Name="btnEditProfil" Width="130" Height="35" Margin="0,30,0,0"

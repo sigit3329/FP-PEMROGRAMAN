@@ -30,7 +30,7 @@
                         <TextBox x:Name="txtUsername" Margin="10,3,30,0" Text="kelompok6"/>
                         <Label Content="Password" Margin="10,10,30,0"
                                FontSize="12" Padding="0" FontFamily="Montserrat"/>
-                        <PasswordBox x:Name="txtPassword" Margin="10,3,30,0"/>
+                        <PasswordBox x:Name="txtPassword" Margin="10,3,30,0" Password="kelompok6"/>
                         <Button x:Name="btnLogin" Width="50" Height="25"
                                 Margin="0,20,250,0" Background="#FCA743"
                                 Content="Login" Foreground="White" FontFamily="Montserrat" Click="btnLogin_Click"/>

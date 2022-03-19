@@ -24,15 +24,10 @@ namespace fp.Model
 
         //deklarasi variabel yang digunakan berdasarkan pada database
         public string username { get; set; }
-
         public string no_hp { get; set; }
-
         public string alamat { get; set; }
-
         public string email { get; set; }
-
         public string password { get; set; }
-
         public string jk { get; set; }
 
 

@@ -75,7 +75,7 @@
             <Button x:Name="btnClose" Content="Tutup" 
                     Background="#FFD09A" Foreground="Black"
                     Height="27" Width="80" HorizontalAlignment="Left"
-                    Grid.Column="1"/>
+                    Grid.Column="1" Click="btnClose_Click"/>
         </Grid>
     </Grid>
 </Window>
